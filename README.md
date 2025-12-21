@@ -27,6 +27,7 @@
 
 ## 🎵 Song I listen to
 
-![Spotify Now Playing](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl2g&cover_image=true&theme=default)
+![Spotify Now Playing](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl2g&cover_image=true&theme=default&show_offline=true)
+
 
 
