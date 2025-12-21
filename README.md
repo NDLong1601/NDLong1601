@@ -30,3 +30,4 @@
 ![Spotify Now Playing](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl2g&cover_image=true&theme=novatorem&show_offline=true)
 
 
+
