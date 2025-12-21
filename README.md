@@ -21,14 +21,30 @@
 ---
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NDLong1601&show_icons=true&theme=radical)
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=NDLong1601&show_icons=true&theme=tokyonight&hide_border=true" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NDLong1601&layout=compact&theme=tokyonight&hide_border=true" />
+    </td>
+  </tr>
+</table>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NDLong1601&layout=compact&theme=radical)
+## 🎧 Music
+<table>
+  <tr>
+    <td align="center">
+      <b>🎧 Now Playing</b><br />
+      <a href="https://github.com/kittinan/spotify-github-profile">
+        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&bar_color=53b14f&bar_color_cover=true" />
+      </a>
+    </td>
+    <td align="center">
+      <b>🕒 Recently Played</b><br />
+      <img src="https://spotify-recently-played-readme.vercel.app/api?user=31m7a5msuawy6lv63bl25ffxl26q" />
+    </td>
+  </tr>
+</table>
 
-## 🎧 Now Playing
-
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
-
-
-## 🕒 Recently Played
-![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=31m7a5msuawy6lv63bl25ffxl26q)
