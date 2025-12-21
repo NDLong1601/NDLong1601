@@ -6,7 +6,7 @@
 ---
 
 ## 🌐 Socials
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)]([https://www.facebook.com/nguyenlong16104/])
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/nguyenlong16104/)
 
 ---
 
@@ -26,5 +26,5 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NDLong1601&layout=compact&theme=radical)
 
 ## 🎵 Song I listen to
-![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&theme=novatorem)
+![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl2g&theme=novatorem)
 
