@@ -26,5 +26,7 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NDLong1601&layout=compact&theme=radical)
 
 ## 🎵 Song I listen to
-![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl2g&theme=novatorem)
+
+![Spotify Now Playing](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl2g&cover_image=true&theme=novatorem&show_offline=true)
+
 
