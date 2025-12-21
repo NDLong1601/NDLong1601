@@ -25,6 +25,10 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NDLong1601&layout=compact&theme=radical)
 
-## 🎵 Song I listen to
+## 🎧 Now Playing
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&bar_color=53b14f&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
+
+
+## 🕒 Recently Played
+![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=31m7a5msuawy6lv63bl25ffxl26q)
