@@ -1,6 +1,14 @@
 # Hi there 👋, I'm Nguyen Duc Long!
 
 ## 🚀 About Me
+Hi, I'm **Nguyen Duc Long** 👋  
+A **Flutter Developer** who loves building clean, scalable, and user-friendly mobile applications.
+
+- 📱 Specializing in **Flutter & Dart**
+- 🔥 Passionate about **mobile UI/UX & performance**
+- 🎧 Coding with music on Spotify
+- 🌱 Always learning new technologies
+- 🤝 Open to collaboration on interesting projects
 
 
 ---
@@ -16,7 +24,6 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/Adobe_XD-FF61F6?style=for-the-badge&logo=adobe-xd&logoColor=white)
 
 ---
 
