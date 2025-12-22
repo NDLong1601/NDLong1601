@@ -45,7 +45,7 @@ A **Flutter Developer** who loves building clean, scalable, and user-friendly mo
     <td align="center">
       <b>🎧 Now Playing</b><br />
       <a href="https://github.com/kittinan/spotify-github-profile">
-        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&bar_color=53b14f&bar_color_cover=true" />
+        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=true&bar_color=53b14f&bar_color_cover=true" />
       </a>
     </td>
     <td align="center">
