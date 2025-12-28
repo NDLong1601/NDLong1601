@@ -11,12 +11,9 @@ A **Flutter Developer** who loves building clean, scalable, and user-friendly mo
 - 🤝 Open to collaboration on interesting projects
 
 
----
-
 ## 🌐 Socials
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/nguyenlong16104/)
 
----
 
 ## 💻 Tech Stack
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
@@ -25,19 +22,13 @@ A **Flutter Developer** who loves building clean, scalable, and user-friendly mo
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
----
 
-## 📊 GitHub Stats
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=NDLong1601&show_icons=true&theme=tokyonight&hide_border=true" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NDLong1601&layout=compact&theme=tokyonight&hide_border=true" />
-    </td>
-  </tr>
-</table>
+## 📊 GitHub Statistics
+
+
+### 📈 Contribution Activity
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NDLong1601&theme=tokyo-night)
+
 
 ## 🎧 Music
 <table>
@@ -49,8 +40,8 @@ A **Flutter Developer** who loves building clean, scalable, and user-friendly mo
       </a>
     </td>
     <td align="center">
-      <b>🕒 Recently Played</b><br />
-      <img src="https://spotify-recently-played-readme.vercel.app/api?user=31m7a5msuawy6lv63bl25ffxl26q" />
+      <!-- <b>🕒 Recently Played</b><br /> -->
+      <!-- <img src="https://spotify-recently-played-readme.vercel.app/api?user=31m7a5msuawy6lv63bl25ffxl26q" /> -->
     </td>
   </tr>
 </table>
