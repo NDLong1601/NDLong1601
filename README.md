@@ -1,6 +1,7 @@
 # Hi there 👋, I'm Nguyen Duc Long!
 
 ## 🚀 About Me
+
 Hi, I'm **Nguyen Duc Long** 👋  
 A **Flutter Developer** who loves building clean, scalable, and user-friendly mobile applications.
 
@@ -10,39 +11,61 @@ A **Flutter Developer** who loves building clean, scalable, and user-friendly mo
 - 🌱 Always learning new technologies
 - 🤝 Open to collaboration on interesting projects
 
+---
 
 ## 🌐 Socials
+
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/nguyenlong16104/)
 
+---
 
 ## 💻 Tech Stack
+
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
+---
 
 ## 📊 GitHub Statistics
 
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=NDLong1601&show_icons=true&theme=tokyonight&hide_border=true"
+    height="165"
+    alt="GitHub Stats"
+  />
 
-### 📈 Contribution Activity
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NDLong1601&theme=tokyo-night)
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=NDLong1601&layout=compact&theme=tokyonight&hide_border=true"
+    height="165"
+    alt="Top Languages"
+  />
+</p>
 
+---
 
-## 🎧 Music
-<table>
-  <tr>
-    <td align="center">
-      <b>🎧 Now Playing</b><br />
-      <a href="https://github.com/kittinan/spotify-github-profile">
-        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=true&bar_color=53b14f&bar_color_cover=true" />
-      </a>
-    </td>
-    <td align="center">
-      <!-- <b>🕒 Recently Played</b><br /> -->
-      <!-- <img src="https://spotify-recently-played-readme.vercel.app/api?user=31m7a5msuawy6lv63bl25ffxl26q" /> -->
-    </td>
-  </tr>
-</table>
+## 📈 Contribution Activity
 
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=NDLong1601&theme=tokyo-night&hide_border=true"
+    width="100%"
+    alt="GitHub Activity Graph"
+  />
+</p>
+
+---
+
+## 🎧 Spotify
+
+<p align="center">
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img
+      src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true"
+      alt="Spotify Now Playing"
+    />
+  </a>
+</p>
