@@ -88,14 +88,7 @@
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
-### 📊 GitHub Activity & 3D Contribution Skyline
-
-<div align="center">
-  <!-- 3D CONTRIBUTION SKYLINE NIGHT VIEW -->
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution City" />
-</div>
-
-<br/>
+### 📊 GitHub Activity
 
 <div align="center">
   <!-- ANIMATED GITHUB ACTIVITY GRAPH -->
