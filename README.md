@@ -141,38 +141,12 @@
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
-### 📂 More About Me (Click to Expand)
+### ⚔️ Player Status & Arcade Quest Log
 
-<details>
-  <summary><b>🎯 Roadmap & Mục tiêu 2026</b></summary>
-  <br/>
-  <ul>
-    <li>🚀 <b>Publish Apps:</b> Phát hành tối thiểu 2 ứng dụng Flutter hoàn chỉnh lên Google Play & App Store.</li>
-    <li>🧠 <b>Master Architecture:</b> Đi sâu vào Clean Architecture kết hợp BLoC / Riverpod cho dự án lớn.</li>
-    <li>🤖 <b>AI on Mobile:</b> Nghiên cứu nhúng mô hình AI/ML nhẹ (TFLite / ONNX) chạy trực tiếp trên smartphone.</li>
-    <li>🌐 <b>Open Source:</b> Đóng góp tích cực hơn cho các thư viện mã nguồn mở Flutter/Dart.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>💡 Fun Facts & Thói quen</b></summary>
-  <br/>
-  <ul>
-    <li>🌙 <b>Thời điểm vàng:</b> Khung giờ đêm khuya là lúc các thuật toán và ý tưởng UI chạy mượt nhất.</li>
-    <li>⌨️ <b>Setup yêu thích:</b> Bàn phím cơ gõ tanh tách + 1 ly cà phê đá + Playlist Lofi chill.</li>
-    <li>🎨 <b>Pixel-Perfect:</b> Cảm giác thỏa mãn nhất là biến bản vẽ thiết kế trên Figma thành widget Flutter mượt mà từng pixel.</li>
-  </ul>
-</details>
-
-<details>
-  <summary><b>📚 Tech Radar & Đang theo dõi</b></summary>
-  <br/>
-  <ul>
-    <li>📱 <b>Flutter 3.x & Dart 3+:</b> Pattern Matching, Records, FFI Native Interop.</li>
-    <li>🗄️ <b>Local-First Databases:</b> SQLite, Hive, Isar, ObjectBox.</li>
-    <li>⚙️ <b>Mobile CI/CD:</b> Fastlane & GitHub Actions tự động build APK / App Bundle.</li>
-  </ul>
-</details>
+<div align="center">
+  <!-- RETRO ARCADE QUEST LOG & STATUS SCREEN -->
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/quest-log.svg" width="100%" alt="Arcade Quest Log & Status Screen" />
+</div>
 
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
