@@ -60,24 +60,6 @@ status  : Open to Collaboration 🤝
 
 </div>
 
-<div align="center">
-
-[![NDLong1601's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NDLong1601&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/NDLong1601)
-&nbsp;
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NDLong1601&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/NDLong1601)
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NDLong1601&theme=tokyo-night&hide_border=true&area=true&area_color=0175C2)](https://github.com/NDLong1601)
-
-</div>
-
 ---
 
 ## 🎧 Spotify — Now Playing
@@ -94,9 +76,9 @@ status  : Open to Collaboration 🤝
 
 <div align="center">
 
-[![Face Attendance](https://github-readme-stats.vercel.app/api/pin/?username=NDLong1601&repo=Face-Attendance-Project&theme=tokyonight&hide_border=true)](https://github.com/NDLong1601/Face-Attendance-Project)
+[![Face-Attendance-Project](https://github-readme-stats.vercel.app/api/pin/?username=NDLong1601&repo=Face-Attendance-Project&theme=tokyonight&hide_border=true)](https://github.com/NDLong1601/Face-Attendance-Project)
 &nbsp;
-[![Fingerprint Attendance](https://github-readme-stats.vercel.app/api/pin/?username=NDLong1601&repo=Fingerprint-Attendance&theme=tokyonight&hide_border=true)](https://github.com/NDLong1601/Fingerprint-Attendance)
+[![Fingerprint-Attendance](https://github-readme-stats.vercel.app/api/pin/?username=NDLong1601&repo=Fingerprint-Attendance&theme=tokyonight&hide_border=true)](https://github.com/NDLong1601/Fingerprint-Attendance)
 
 </div>
 
