@@ -63,7 +63,8 @@
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/bongo-cat.gif" width="240" alt="Bongo Cat Typing" />
+  <!-- FULL-WIDTH ANIMATED DEVELOPER DESK -->
+  <img width="100%" src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/developer-desk.svg" alt="Developer Workspace" />
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
