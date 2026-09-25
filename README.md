@@ -15,18 +15,18 @@
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 ### 🏆 GitHub Profile Trophies
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=NDLong1601&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4" alt="NDLong1601 Trophies" />
+    <img src="https://github-trophies.devomb.com/?username=NDLong1601&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4" alt="NDLong1601 Trophies" />
   </a>
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 ### 🚀 About Me
 
@@ -52,7 +52,7 @@
       </p>
     </td>
     <td width="40%" align="center" valign="middle">
-      <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Coding Animation" />
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/coding.gif" width="100%" alt="Coding Animation" />
     </td>
   </tr>
 </table>
@@ -101,7 +101,7 @@ class FlutterDeveloper {
 ```
 
 <!-- GLOWING NEON SEPARATOR -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 ### 🛠️ Tech Stack & Tooling
 
@@ -130,7 +130,7 @@ class FlutterDeveloper {
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 ### 📊 GitHub Activity & Streak
 
@@ -153,16 +153,16 @@ class FlutterDeveloper {
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 ### 🎧 Spotify — Now Playing
 
 <div align="center">
 
 <p>
-  <img src="https://raw.githubusercontent.com/DenverCoder1/DenverCoder1/master/assets/bars.gif" width="26" alt="Audio Waves" />
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/equalizer.svg" width="22" height="22" align="center" alt="Audio Waves" />
   <b>&nbsp;Vibing while coding on Spotify&nbsp;</b>
-  <img src="https://raw.githubusercontent.com/DenverCoder1/DenverCoder1/master/assets/bars.gif" width="26" alt="Audio Waves" />
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/equalizer.svg" width="22" height="22" align="center" alt="Audio Waves" />
 </p>
 
 <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&redirect=true">
@@ -172,7 +172,7 @@ class FlutterDeveloper {
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 ### 🗂️ Featured Projects
 
@@ -210,7 +210,7 @@ class FlutterDeveloper {
 </table>
 
 <!-- GLOWING NEON SEPARATOR -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 ### 📂 More About Me (Click to Expand)
 
@@ -246,7 +246,7 @@ class FlutterDeveloper {
 </details>
 
 <!-- GLOWING NEON SEPARATOR -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 ### 💬 Daily Dev Quote
 
