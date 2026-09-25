@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="240">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="holoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c18"/>
+      <stop offset="50%" stop-color="#0b1122"/>
+      <stop offset="100%" stop-color="#060914"/>
+    </linearGradient>
+
+    <!-- Top Neon Accent -->
+    <linearGradient id="holoAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="35%" stop-color="#818CF8"/>
+      <stop offset="70%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <!-- Sphere Core Glow -->
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#818CF8" stop-opacity="0.25"/>
+      <stop offset="80%" stop-color="#060914" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#060914" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Hologram Glow Filter -->
+    <filter id="holoGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .holo-frame { fill: url(#holoBg); stroke: #1e293b; stroke-width: 1.5; }
+    .hud-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+    }
+    .hud-value {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 9.5px;
+      font-weight: 700;
+    }
+    .hud-dim {
+      font-family: monospace;
+      font-size: 8.5px;
+      fill: #64748b;
+    }
+    .node-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      fill: #f1f5f9;
+    }
+    .node-sub {
+      font-family: monospace;
+      font-size: 8px;
+      font-weight: 600;
+    }
+  </style>
+
+  <!-- Frame Background -->
+  <rect class="holo-frame" x="2" y="2" width="846" height="236" rx="12" />
+
+  <!-- Top Accent Strip -->
+  <rect x="20" y="2" width="810" height="2" fill="url(#holoAccent)" rx="1" filter="url(#holoGlow)" />
+
+  <!-- Top HUD Header -->
+  <g transform="translate(24, 20)">
+    <circle cx="0" cy="0" r="3.5" fill="#00E5FF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text class="hud-label" x="12" y="3" fill="#00E5FF">3D HOLOGRAPHIC NETWORK &amp; GLOBAL NODES</text>
+    <text class="hud-dim" x="320" y="3">|</text>
+    <text class="hud-dim" x="332" y="3" fill="#818CF8">WIRE-FRAME ENGINE: ACTIVE</text>
+
+    <!-- Right Header -->
+    <text class="hud-dim" x="580" y="3">ROTATION: <tspan fill="#34D399">3D Y-AXIS 360°</tspan></text>
+    <text class="hud-dim" x="730" y="3">|</text>
+    <text class="hud-dim" x="742" y="3" fill="#00E5FF">FPS: 60.0</text>
+  </g>
+
+  <!-- ==================== LEFT HUD TELEMETRY PANEL ==================== -->
+  <g transform="translate(30, 48)">
+    <!-- Panel Box -->
+    <rect x="0" y="0" width="220" height="170" rx="8" fill="#090e1d" stroke="#1e293b" stroke-width="1.2"/>
+    
+    <!-- Header -->
+    <rect x="10" y="10" width="200" height="20" rx="4" fill="#0c152b" stroke="#00E5FF" stroke-width="0.8"/>
+    <text class="hud-label" x="20" y="24" fill="#00E5FF">🌐 GEOLOCATION &amp; UPLINK</text>
+
+    <!-- Telemetry Lines -->
+    <g transform="translate(14, 52)">
+      <text class="hud-dim" x="0" y="0">REGION</text>
+      <text class="hud-value" x="80" y="0" fill="#f8fafc">Hanoi, Vietnam</text>
+
+      <text class="hud-dim" x="0" y="22">COORDINATES</text>
+      <text class="hud-value" x="80" y="22" fill="#38BDF8">21.02°N / 105.85°E</text>
+
+      <text class="hud-dim" x="0" y="44">TIMEZONE</text>
+      <text class="hud-value" x="80" y="44" fill="#34D399">UTC+7 (Indochina)</text>
+
+      <text class="hud-dim" x="0" y="66">UPLINK STATUS</text>
+      <text class="hud-value" x="80" y="66" fill="#10B981">● CONNECTED (1 Gbps)</text>
+
+      <text class="hud-dim" x="0" y="88">TARGET SCOPE</text>
+      <text class="hud-value" x="80" y="88" fill="#F472B6">Global App Stores</text>
+    </g>
+
+    <!-- Bottom Mini Wave -->
+    <line x1="12" y1="150" x2="208" y2="150" stroke="#1e293b" stroke-width="1"/>
+    <text class="hud-dim" x="14" y="162" fill="#64748b">LATENCY: <tspan fill="#34D399">12ms</tspan> | PACKET LOSS: <tspan fill="#34D399">0.0%</tspan></text>
+  </g>
+
+  <!-- ==================== CENTER 3D WIREFRAME SPHERE ==================== -->
+  <g class="sphere-3d">
+    <!-- Outer Ambient Glow Circle -->
+    <circle cx="425" cy="120" r="85" fill="url(#coreGlow)" />
+
+    <!-- 3D Tilted Planetary Orbit Ring (Back Half) -->
+    <ellipse cx="425" cy="120" rx="125" ry="38" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5" transform="rotate(-15 425 120)"/>
+
+    <!-- Fixed Latitude Lines (Horizontal Rings of the Globe) -->
+    <ellipse cx="425" cy="120" rx="70" ry="12.6" fill="none" stroke="#00E5FF" stroke-width="1.2" opacity="0.6"/>
+    <ellipse cx="425" cy="90" rx="61.6" ry="9.8" fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="425" cy="150" rx="61.6" ry="9.8" fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="425" cy="68" rx="38.5" ry="6.3" fill="none" stroke="#818CF8" stroke-width="0.8" opacity="0.4"/>
+    <ellipse cx="425" cy="172" rx="38.5" ry="6.3" fill="none" stroke="#818CF8" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- Outer Sphere Silhouette Boundary -->
+    <circle cx="425" cy="120" r="70" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Dynamic 3D Rotating Longitude Meridians -->
+    <g transform="rotate(-12 425 120)">
+    <ellipse cx="425" cy="120" rx="70.0" ry="70" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6">
+      <animate attributeName="rx" values="70.0;64.7;49.5;26.8;0.0;26.8;49.5;64.7;70.0;64.7;49.5;26.8;0.0;26.8;49.5;64.7;70.0" dur="8.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0.3;0.7;0.3;0.7" dur="8.0s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="425" cy="120" rx="35.0" ry="70" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6">
+      <animate attributeName="rx" values="35.0;9.1;18.1;42.6;60.6;69.4;67.6;55.5;35.0;9.1;18.1;42.6;60.6;69.4;67.6;55.5;35.0" dur="8.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0.3;0.7;0.3;0.7" dur="8.0s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="425" cy="120" rx="35.0" ry="70" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6">
+      <animate attributeName="rx" values="35.0;55.5;67.6;69.4;60.6;42.6;18.1;9.1;35.0;55.5;67.6;69.4;60.6;42.6;18.1;9.1;35.0" dur="8.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0.3;0.7;0.3;0.7" dur="8.0s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="425" cy="120" rx="70.0" ry="70" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6">
+      <animate attributeName="rx" values="70.0;64.7;49.5;26.8;0.0;26.8;49.5;64.7;70.0;64.7;49.5;26.8;0.0;26.8;49.5;64.7;70.0" dur="8.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0.3;0.7;0.3;0.7" dur="8.0s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="425" cy="120" rx="35.0" ry="70" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6">
+      <animate attributeName="rx" values="35.0;9.1;18.1;42.6;60.6;69.4;67.6;55.5;35.0;9.1;18.1;42.6;60.6;69.4;67.6;55.5;35.0" dur="8.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0.3;0.7;0.3;0.7" dur="8.0s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="425" cy="120" rx="35.0" ry="70" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6">
+      <animate attributeName="rx" values="35.0;55.5;67.6;69.4;60.6;42.6;18.1;9.1;35.0;55.5;67.6;69.4;60.6;42.6;18.1;9.1;35.0" dur="8.0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0.3;0.7;0.3;0.7" dur="8.0s" repeatCount="indefinite" />
+    </ellipse>
+    </g>
+
+    <!-- Center Glowing Singularity / Energy Core -->
+    <circle cx="425" cy="120" r="6" fill="#00E5FF" filter="url(#holoGlow)">
+      <animate attributeName="r" values="5;8;5" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#00E5FF;#818CF8;#00E5FF" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="425" cy="120" r="2.5" fill="#ffffff" />
+
+    <!-- 3D Orbiting Satellites / Nodes -->
+    <g transform="rotate(-15 425 120)">
+    <!-- Orbiting Node: FLUTTER -->
+    <g>
+      <circle cx="550.0" cy="120.0" r="4.5" fill="#00E5FF" opacity="0.70">
+        <animate attributeName="cx" values="550.0;543.9;526.1;498.5;463.6;425.0;386.4;351.5;323.9;306.1;300.0;306.1;323.9;351.5;386.4;425.0;463.6;498.5;526.1;543.9;550.0" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="120.0;131.7;142.3;150.7;156.1;158.0;156.1;150.7;142.3;131.7;120.0;108.3;97.7;89.3;83.9;82.0;83.9;89.3;97.7;108.3;120.0" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="r" values="4.5;4.8;5.1;5.3;5.5;5.5;5.5;5.3;5.1;4.8;4.5;4.2;3.9;3.7;3.5;3.5;3.5;3.7;3.9;4.2;4.5" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.70;0.79;0.88;0.94;0.99;1.00;0.99;0.94;0.88;0.79;0.70;0.61;0.52;0.46;0.41;0.40;0.41;0.46;0.52;0.61;0.70" dur="6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <!-- Orbiting Node: CLEAN-ARCH -->
+    <g>
+      <circle cx="362.5" cy="152.9" r="5.4" fill="#818CF8" opacity="0.96">
+        <animate attributeName="cx" values="362.5;332.1;310.8;300.7;302.7;316.7;341.4;374.2;411.9;451.0;487.5;517.9;539.2;549.3;547.3;533.3;508.6;475.8;438.1;399.0;362.5" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="152.9;145.4;135.5;124.0;112.1;101.0;91.8;85.3;82.2;82.8;87.1;94.6;104.5;116.0;127.9;139.0;148.2;154.7;157.8;157.2;152.9" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="r" values="5.4;5.2;4.9;4.6;4.3;4.0;3.8;3.6;3.5;3.5;3.6;3.8;4.1;4.4;4.7;5.0;5.2;5.4;5.5;5.5;5.4" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.96;0.90;0.82;0.73;0.64;0.55;0.48;0.43;0.40;0.41;0.44;0.50;0.58;0.67;0.76;0.85;0.92;0.97;1.00;0.99;0.96" dur="6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <!-- Orbiting Node: MOBILE-AI -->
+    <g>
+      <circle cx="362.5" cy="87.1" r="3.6" fill="#F472B6" opacity="0.44">
+        <animate attributeName="cx" values="362.5;399.0;438.1;475.8;508.6;533.3;547.3;549.3;539.2;517.9;487.5;451.0;411.9;374.2;341.4;316.7;302.7;300.7;310.8;332.1;362.5" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="87.1;82.8;82.2;85.3;91.8;101.0;112.1;124.0;135.5;145.4;152.9;157.2;157.8;154.7;148.2;139.0;127.9;116.0;104.5;94.6;87.1" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="r" values="3.6;3.5;3.5;3.6;3.8;4.0;4.3;4.6;4.9;5.2;5.4;5.5;5.5;5.4;5.2;5.0;4.7;4.4;4.1;3.8;3.6" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.44;0.41;0.40;0.43;0.48;0.55;0.64;0.73;0.82;0.90;0.96;0.99;1.00;0.97;0.92;0.85;0.76;0.67;0.58;0.50;0.44" dur="6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT HUD SATELLITE NODES ==================== -->
+  <g transform="translate(600, 48)">
+    <rect x="0" y="0" width="220" height="170" rx="8" fill="#090e1d" stroke="#1e293b" stroke-width="1.2"/>
+    
+    <!-- Header -->
+    <rect x="10" y="10" width="200" height="20" rx="4" fill="#0c152b" stroke="#818CF8" stroke-width="0.8"/>
+    <text class="hud-label" x="20" y="24" fill="#818CF8">🛰️ TECH STACK SATELLITES</text>
+
+    <!-- Node 1: Flutter Engine -->
+    <g transform="translate(14, 44)">
+      <rect x="0" y="0" width="192" height="24" rx="4" fill="#131c33" stroke="#0284c7" stroke-width="0.8"/>
+      <text x="8" y="16" font-size="12">📱</text>
+      <text class="node-title" x="26" y="13">Flutter Core Engine</text>
+      <text class="node-sub" x="26" y="21" fill="#38BDF8">v3.x • Cross-Platform UI</text>
+      <circle cx="180" cy="12" r="3" fill="#10B981"/>
+    </g>
+
+    <!-- Node 2: Clean Architecture -->
+    <g transform="translate(14, 74)">
+      <rect x="0" y="0" width="192" height="24" rx="4" fill="#131c33" stroke="#4f46e5" stroke-width="0.8"/>
+      <text x="8" y="16" font-size="12">🧠</text>
+      <text class="node-title" x="26" y="13">Clean Arch &amp; BLoC</text>
+      <text class="node-sub" x="26" y="21" fill="#818CF8">State Management • Scalable</text>
+      <circle cx="180" cy="12" r="3" fill="#10B981"/>
+    </g>
+
+    <!-- Node 3: On-Device AI -->
+    <g transform="translate(14, 104)">
+      <rect x="0" y="0" width="192" height="24" rx="4" fill="#131c33" stroke="#db2777" stroke-width="0.8"/>
+      <text x="8" y="16" font-size="12">🤖</text>
+      <text class="node-title" x="26" y="13">Mobile AI &amp; Vision</text>
+      <text class="node-sub" x="26" y="21" fill="#F472B6">TFLite • ONNX Runtime</text>
+      <circle cx="180" cy="12" r="3" fill="#10B981"/>
+    </g>
+
+    <!-- Node 4: Cloud & Firebase -->
+    <g transform="translate(14, 134)">
+      <rect x="0" y="0" width="192" height="24" rx="4" fill="#131c33" stroke="#d97706" stroke-width="0.8"/>
+      <text x="8" y="16" font-size="12">🔥</text>
+      <text class="node-title" x="26" y="13">Firebase &amp; APIs</text>
+      <text class="node-sub" x="26" y="21" fill="#FBBF24">Auth • Firestore • Push</text>
+      <circle cx="180" cy="12" r="3" fill="#10B981"/>
+    </g>
+  </g>
+</svg>
