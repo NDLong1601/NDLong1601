@@ -1,15 +1,17 @@
-<!-- HEADER WAVE BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0175C2,50:02569B,100:1B1F23&height=220&section=header&text=Nguy%E1%BB%85n%20%C4%90%E1%BB%A9c%20Long&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Flutter%20Developer%20%7C%20Mobile%20UI%2FUX%20Engineer&descAlignY=58&descSize=20&animation=fadeIn" alt="Header Banner" />
+<!-- RETRO ARCADE 8-BIT HERO BANNER -->
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/arcade-header.svg" alt="Retro Arcade Hero Banner" />
+</div>
 
 <div align="center">
 
 <!-- DYNAMIC TYPING SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=0175C2&center=true&vCenter=true&width=560&lines=Flutter+Developer+%F0%9F%93%B1;Passionate+about+Mobile+UI%2FUX+%E2%9C%A8;Building+Scalable+%26+Clean+Code+%F0%9F%9A%80;Always+Learning+New+Technologies+%F0%9F%8C%B1;Open+to+Exciting+Collaborations+%F0%9F%A4%9D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00D2FF&center=true&vCenter=true&width=560&lines=Flutter+Developer+%F0%9F%93%B1;Passionate+about+Mobile+UI%2FUX+%E2%9C%A8;Building+Scalable+%26+Clean+Code+%F0%9F%9A%80;Always+Learning+New+Technologies+%F0%9F%8C%B1;Open+to+Exciting+Collaborations+%F0%9F%A4%9D" alt="Typing SVG" />
 
 <br/>
 
 <!-- PROFILE STATS & FOLLOWERS -->
-[![Profile Views](https://komarev.com/ghpvc/?username=NDLong1601&color=0175C2&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/NDLong1601)
+[![Profile Views](https://komarev.com/ghpvc/?username=NDLong1601&color=00D2FF&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/NDLong1601)
 [![GitHub Followers](https://img.shields.io/github/followers/NDLong1601?label=Followers&style=for-the-badge&color=238636&logo=github)](https://github.com/NDLong1601?tab=followers)
 
 </div>
@@ -169,5 +171,7 @@
 
 <br/>
 
-<!-- FOOTER WAVE BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1B1F23,50:02569B,100:0175C2&height=120&section=footer&animation=fadeIn" alt="Footer Banner" />
+<!-- RETRO ARCADE FOOTER BANNER -->
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/arcade-footer.svg" alt="Retro Arcade Footer" />
+</div>

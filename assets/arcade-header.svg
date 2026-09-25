@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" width="100%" height="auto" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="arcadeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14" />
+      <stop offset="50%" stop-color="#0b1222" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Neon Cyan Border Gradient -->
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#00D2FF" />
+    </linearGradient>
+
+    <!-- Retro Player Name Gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="35%" stop-color="#38BDF8" />
+      <stop offset="70%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" opacity="0.25" />
+    </pattern>
+
+    <style>
+      .retro-text {
+        font-family: 'Consolas', 'Courier New', Monaco, monospace;
+        letter-spacing: 1.5px;
+      }
+      .pixel-sub {
+        font-family: 'Consolas', 'Courier New', Monaco, monospace;
+        letter-spacing: 2px;
+        font-weight: 600;
+      }
+      .blink {
+        animation: blinkAnim 1s steps(2, start) infinite;
+      }
+      @keyframes blinkAnim {
+        to { visibility: hidden; }
+      }
+    </style>
+  </defs>
+
+  <!-- ARCADE CABINET SCREEN OUTER FRAME -->
+  <rect x="10" y="10" width="900" height="320" rx="18" fill="url(#arcadeBg)" stroke="url(#neonCyan)" stroke-width="2.5" />
+  
+  <!-- CRT SCANLINES OVERLAY -->
+  <rect x="10" y="10" width="900" height="320" rx="18" fill="url(#scanlines)" pointer-events="none" />
+
+  <!-- DECORATIVE CORNER BRACKETS -->
+  <path d="M 22 45 L 22 22 L 45 22" stroke="#00D2FF" stroke-width="2.5" fill="none" />
+  <path d="M 898 45 L 898 22 L 875 22" stroke="#00D2FF" stroke-width="2.5" fill="none" />
+  <path d="M 22 295 L 22 318 L 45 318" stroke="#00D2FF" stroke-width="2.5" fill="none" />
+  <path d="M 898 295 L 898 318 L 875 318" stroke="#00D2FF" stroke-width="2.5" fill="none" />
+
+  <!-- TOP HEADER HUD STATUS -->
+  <g class="retro-text" font-size="12" fill="#64748B">
+    <text x="40" y="44">🕹️ ARCADE STAGE : <tspan fill="#00D2FF">2026.0</tspan></text>
+    <text x="460" y="44" text-anchor="middle">DIFFICULTY : <tspan fill="#EF4444">NIGHTMARE</tspan></text>
+    <text x="880" y="44" text-anchor="end">CREDITS : <tspan fill="#F59E0B">∞</tspan></text>
+  </g>
+
+  <!-- HORIZONTAL DIVIDER 1 -->
+  <line x1="30" y1="56" x2="890" y2="56" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="4,4" />
+
+  <!-- BLINKING "PLAYER 1 READY" PROMPT -->
+  <g transform="translate(40, 84)">
+    <rect x="0" y="0" width="168" height="22" rx="4" fill="#0369a1" opacity="0.3" />
+    <text x="10" y="15" fill="#38BDF8" font-family="'Consolas', monospace" font-size="11" font-weight="700" letter-spacing="1">
+      ▶ PLAYER 1 READY
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <!-- LIVES / HEARTS -->
+  <g transform="translate(810, 85)" fill="#EF4444">
+    <!-- Heart 1 -->
+    <path d="M 10 3 A 3 3 0 0 0 4 6 A 3 3 0 0 0 10 13 L 10 13 L 16 6 A 3 3 0 0 0 10 3 Z" transform="scale(1.2)" />
+    <!-- Heart 2 -->
+    <path d="M 28 3 A 3 3 0 0 0 22 6 A 3 3 0 0 0 28 13 L 28 13 L 34 6 A 3 3 0 0 0 28 3 Z" transform="scale(1.2)" />
+    <!-- Heart 3 -->
+    <path d="M 46 3 A 3 3 0 0 0 40 6 A 3 3 0 0 0 46 13 L 46 13 L 52 6 A 3 3 0 0 0 46 3 Z" transform="scale(1.2)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="0.8s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- MAIN CHARACTER TITLE -->
+  <text x="40" y="146" fill="url(#nameGrad)" font-family="'Consolas', 'Courier New', Monaco, monospace" font-size="44" font-weight="900" letter-spacing="2">
+    NGUYEN DUC LONG
+  </text>
+
+  <!-- ROLE & CLASS DESCRIPTION -->
+  <g class="retro-text">
+    <text x="42" y="180" fill="#94A3B8" font-size="15" font-weight="700">
+      CLASS : <tspan fill="#38BDF8">FLUTTER ARCHITECT</tspan> // <tspan fill="#A855F7">MOBILE UI/UX ENGINEER</tspan>
+    </text>
+  </g>
+
+  <!-- STATS GAUGES / BARS -->
+  <g transform="translate(42, 206)">
+    <!-- HP BAR -->
+    <text x="0" y="14" fill="#10B981" font-family="'Consolas', monospace" font-size="12" font-weight="700">HP</text>
+    <rect x="30" y="3" width="220" height="13" rx="3" fill="#064E3B" stroke="#059669" stroke-width="1" />
+    <rect x="32" y="5" width="216" height="9" rx="2" fill="#10B981">
+      <animate attributeName="width" values="200;216;208;216" dur="3s" repeatCount="indefinite" />
+    </rect>
+    <text x="260" y="14" fill="#10B981" font-family="'Consolas', monospace" font-size="11">100/100</text>
+
+    <!-- MP (COFFEE) BAR -->
+    <text x="360" y="14" fill="#00D2FF" font-family="'Consolas', monospace" font-size="12" font-weight="700">MP</text>
+    <rect x="390" y="3" width="220" height="13" rx="3" fill="#0C4A6E" stroke="#0284C7" stroke-width="1" />
+    <rect x="392" y="5" width="216" height="9" rx="2" fill="#00D2FF" />
+    <text x="620" y="14" fill="#00D2FF" font-family="'Consolas', monospace" font-size="11">∞</text>
+    <text x="635" y="14" fill="#64748B" font-family="'Consolas', monospace" font-size="11">(COFFEE ☕)</text>
+  </g>
+
+  <!-- EQUIPMENT / LOADOUT BADGES -->
+  <g transform="translate(42, 244)" font-family="'Consolas', monospace" font-size="11" font-weight="700">
+    <text x="0" y="14" fill="#64748B">LOADOUT :</text>
+    
+    <!-- Item 1: Flutter -->
+    <rect x="80" y="0" width="94" height="20" rx="4" fill="#0f172a" stroke="#0284c7" stroke-width="1" />
+    <text x="127" y="14" fill="#38bdf8" text-anchor="middle">⚡ FLUTTER</text>
+
+    <!-- Item 2: Dart -->
+    <rect x="184" y="0" width="76" height="20" rx="4" fill="#0f172a" stroke="#0284c7" stroke-width="1" />
+    <text x="222" y="14" fill="#38bdf8" text-anchor="middle">🎯 DART</text>
+
+    <!-- Item 3: Android -->
+    <rect x="270" y="0" width="96" height="20" rx="4" fill="#0f172a" stroke="#059669" stroke-width="1" />
+    <text x="318" y="14" fill="#34d399" text-anchor="middle">📱 ANDROID</text>
+
+    <!-- Item 4: OpenCV -->
+    <rect x="376" y="0" width="88" height="20" rx="4" fill="#0f172a" stroke="#7c3aed" stroke-width="1" />
+    <text x="420" y="14" fill="#c084fc" text-anchor="middle">👁️ OPENCV</text>
+
+    <!-- Item 5: Firebase -->
+    <rect x="474" y="0" width="98" height="20" rx="4" fill="#0f172a" stroke="#d97706" stroke-width="1" />
+    <text x="523" y="14" fill="#fbbf24" text-anchor="middle">🔥 FIREBASE</text>
+
+    <!-- Location Pill -->
+    <rect x="710" y="0" width="130" height="20" rx="4" fill="#1e293b" />
+    <text x="775" y="14" fill="#94A3B8" text-anchor="middle">📍 VIETNAM 🇻🇳</text>
+  </g>
+
+  <!-- HORIZONTAL DIVIDER 2 -->
+  <line x1="30" y1="280" x2="890" y2="280" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="4,4" />
+
+  <!-- BLINKING CALL TO ACTION -->
+  <g class="retro-text" font-size="12" font-weight="700">
+    <text x="460" y="304" fill="#F59E0B" text-anchor="middle">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite" />
+      ▼ ▼ ▼  PRESS [SCROLL DOWN] TO START ADVENTURE  ▼ ▼ ▼
+    </text>
+  </g>
+</svg>
