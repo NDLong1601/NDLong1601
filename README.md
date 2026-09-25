@@ -61,6 +61,10 @@
 
 ### 📟 Interactive Terminal Mockup (`$ npx ndlong`)
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/bongo-cat.gif" width="220" alt="Bongo Cat Typing" />
+</div>
+
 ```bash
 ┌──(ndlong㉿workspace)-[~]
 └─$ ndlong --profile
@@ -106,6 +110,13 @@ class FlutterDeveloper {
 ### 🛠️ Tech Stack & Tooling
 
 <div align="center">
+  <!-- ANIMATED TECH STACK MARQUEE -->
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/tech-marquee.svg" width="100%" alt="Tech Stack Marquee" />
+</div>
+
+<br/>
+
+<div align="center">
 
 #### 📱 Mobile Development
 <a href="https://skillicons.dev">
@@ -135,14 +146,19 @@ class FlutterDeveloper {
 ### 📊 GitHub Activity & Streak
 
 <div align="center">
+  <!-- ANIMATED GITHUB ACTIVITY GRAPH -->
+  <img src="https://github-readme-activity-graph-sigma.vercel.app/graph?username=NDLong1601&theme=tokyo-night&area=true&hide_border=true" width="95%" alt="Activity Graph" />
+</div>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NDLong1601&theme=tokyonight&hide_border=true&stroke=0175C2&ring=0175C2&fire=FF6B6B&currStreakLabel=0175C2)](https://github.com/NDLong1601)
+<br/>
 
+<div align="center">
+  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NDLong1601&theme=tokyonight&hide_border=true&stroke=0175C2&ring=0175C2&fire=FF6B6B&currStreakLabel=0175C2)](https://github.com/NDLong1601)
 </div>
 
 ---
 
-### 🐍 Contribution Journey
+### 🐍 Contribution Journey & Arcade
 
 <div align="center">
   <picture>
@@ -150,6 +166,13 @@ class FlutterDeveloper {
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NDLong1601/NDLong1601/output/github-contribution-grid-snake.svg" />
     <img alt="Snake animation" src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/output/github-contribution-grid-snake.svg" />
   </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- ANIMATED PAC-MAN CONTRIBUTION EATER -->
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/pacman.svg" width="90%" alt="Pacman Contribution Eater" />
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
@@ -174,40 +197,45 @@ class FlutterDeveloper {
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
-### 🗂️ Featured Projects
+### 🗂️ Featured Projects & Mobile Demo
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🎯 Smart Face Attendance Pro</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenCV-LBPH-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-        <img src="https://img.shields.io/badge/CustomTkinter-Modern_UI-blue?style=flat-square" />
-      </p>
-      <p>Hệ thống điểm danh khuôn mặt thời gian thực với công nghệ AI LBPH, tích hợp HUD sci-fi, chống trùng lặp thông minh và xuất báo cáo Excel tự động.</p>
-      <p align="center">
-        <a href="https://github.com/NDLong1601/Face-Attendance-Project">
-          <img src="https://img.shields.io/badge/View_Repository-0175C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🖐️ Smart Fingerprint Attendance</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-Biometrics-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/ORB+RANSAC-Matching-orange?style=flat-square" />
-        <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-      </p>
-      <p>Hệ thống chấm công vân tay sinh trắc học với hiệu ứng Biometric Scan Laser độc đáo, pipeline trích xuất ORB + RANSAC đa tầng và CSDL SQLite.</p>
-      <p align="center">
-        <a href="https://github.com/NDLong1601/Fingerprint-Attendance">
-          <img src="https://img.shields.io/badge/View_Repository-0175C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td width="42%" align="center" valign="middle">
+        <!-- ANIMATED FLUTTER SMARTPHONE MOCKUP -->
+        <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/phone-mockup.svg" width="280" alt="Flutter Mobile AI Demo" />
+      </td>
+      <td width="58%" valign="top">
+        <h3 align="center">🎯 Smart Face Attendance Pro</h3>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/OpenCV-LBPH-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+          <img src="https://img.shields.io/badge/CustomTkinter-Modern_UI-blue?style=flat-square" />
+        </p>
+        <p>Hệ thống điểm danh khuôn mặt thời gian thực với công nghệ AI LBPH, tích hợp HUD sci-fi, chống trùng lặp thông minh và xuất báo cáo Excel tự động.</p>
+        <p align="center">
+          <a href="https://github.com/NDLong1601/Face-Attendance-Project">
+            <img src="https://img.shields.io/badge/View_Repository-0175C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
+          </a>
+        </p>
+        <hr/>
+        <h3 align="center">🖐️ Smart Fingerprint Attendance</h3>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Python-Biometrics-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/ORB+RANSAC-Matching-orange?style=flat-square" />
+          <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+        </p>
+        <p>Hệ thống chấm công vân tay sinh trắc học với hiệu ứng Biometric Scan Laser độc đáo, pipeline trích xuất ORB + RANSAC đa tầng và CSDL SQLite.</p>
+        <p align="center">
+          <a href="https://github.com/NDLong1601/Fingerprint-Attendance">
+            <img src="https://img.shields.io/badge/View_Repository-0175C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
+          </a>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
