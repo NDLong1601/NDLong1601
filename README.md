@@ -26,13 +26,6 @@
 <!-- ARCADE ACHIEVEMENTS UNLOCKED -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/achievements.svg" width="100%" alt="Arcade Achievements" />
 
-<br/><br/>
-
-<!-- REALTIME GITHUB STREAK STATS -->
-<a href="https://github.com/NDLong1601">
-  <img src="https://streak-stats.demolab.com/?user=NDLong1601&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak Stats" />
-</a>
-
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
