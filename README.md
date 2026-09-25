@@ -57,52 +57,12 @@
   </tr>
 </table>
 
----
-
-### 📟 Interactive Terminal Mockup (`$ npx ndlong`)
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/bongo-cat.gif" width="220" alt="Bongo Cat Typing" />
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/bongo-cat.gif" width="240" alt="Bongo Cat Typing" />
 </div>
-
-```bash
-┌──(ndlong㉿workspace)-[~]
-└─$ ndlong --profile
-   [+] Name     : Nguyễn Đức Long
-   [+] Role     : Flutter & Mobile Application Engineer
-   [+] Focus    : Cross-Platform Performance, UI/UX Animation & AI Integration
-   [+] Location : Vietnam 🇻🇳
-   [+] Status   : Open to exciting freelance & full-time opportunities
-
-┌──(ndlong㉿workspace)-[~]
-└─$ ndlong --core-skills
-   ["Flutter", "Dart", "Clean Architecture", "Python", "OpenCV", "SQLite", "Firebase"]
-
-┌──(ndlong㉿workspace)-[~]
-└─$ ndlong --current-vibe
-   "Brewing coffee ☕, playing lofi on Spotify 🎧, and pushing clean commits 🚀"
-```
-
----
-
-### 💻 Developer Snapshot (`NDLong.dart`)
-
-```dart
-class FlutterDeveloper {
-  final String name = 'Nguyễn Đức Long';
-  final String role = 'Mobile Application Engineer';
-  final List<String> primaryFocus = ['Flutter', 'Dart', 'UI/UX Polish'];
-  final List<String> secondaryFocus = ['Python', 'OpenCV', 'SQLite', 'Firebase'];
-  final String currentMotto = 'Code clean, design smart, build for users.';
-
-  void dailyRoutine() {
-    drinkCoffee();
-    codeModernApps();
-    listenToSpotify();
-    learnSomethingNew();
-  }
-}
-```
 
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
@@ -114,46 +74,14 @@ class FlutterDeveloper {
   <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/tech-marquee.svg" width="100%" alt="Tech Stack Marquee" />
 </div>
 
-<br/>
-
-<div align="center">
-
-#### 📱 Mobile Development
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio&theme=dark" alt="Mobile Tech" />
-</a>
-
-#### 💻 Programming Languages & Core
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,python,c,cpp&theme=dark" alt="Languages" />
-</a>
-
-#### 🗄️ Backend, Databases & Vision
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=firebase,sqlite,mongodb,opencv&theme=dark" alt="Backend & DB" />
-</a>
-
-#### 🎨 Design & Developer Tools
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=figma,git,github,vscode,postman&theme=dark" alt="Tools" />
-</a>
-
-</div>
-
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
-### 📊 GitHub Activity & Streak
+### 📊 GitHub Activity
 
 <div align="center">
   <!-- ANIMATED GITHUB ACTIVITY GRAPH -->
   <img src="https://github-readme-activity-graph-sigma.vercel.app/graph?username=NDLong1601&theme=tokyo-night&area=true&hide_border=true" width="95%" alt="Activity Graph" />
-</div>
-
-<br/>
-
-<div align="center">
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NDLong1601&theme=tokyonight&hide_border=true&stroke=0175C2&ring=0175C2&fire=FF6B6B&currStreakLabel=0175C2)](https://github.com/NDLong1601)
 </div>
 
 ---
@@ -192,49 +120,6 @@ class FlutterDeveloper {
   <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
 </a>
 
-</div>
-
-<!-- GLOWING NEON SEPARATOR -->
-<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
-
-### 🗂️ Featured Projects & Mobile Demo
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="42%" align="center" valign="middle">
-        <!-- ANIMATED FLUTTER SMARTPHONE MOCKUP -->
-        <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/phone-mockup.svg" width="280" alt="Flutter Mobile AI Demo" />
-      </td>
-      <td width="58%" valign="top">
-        <h3 align="center">🎯 Smart Face Attendance Pro</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/OpenCV-LBPH-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-          <img src="https://img.shields.io/badge/CustomTkinter-Modern_UI-blue?style=flat-square" />
-        </p>
-        <p>Hệ thống điểm danh khuôn mặt thời gian thực với công nghệ AI LBPH, tích hợp HUD sci-fi, chống trùng lặp thông minh và xuất báo cáo Excel tự động.</p>
-        <p align="center">
-          <a href="https://github.com/NDLong1601/Face-Attendance-Project">
-            <img src="https://img.shields.io/badge/View_Repository-0175C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
-          </a>
-        </p>
-        <hr/>
-        <h3 align="center">🖐️ Smart Fingerprint Attendance</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Python-Biometrics-3776AB?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/ORB+RANSAC-Matching-orange?style=flat-square" />
-          <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-        </p>
-        <p>Hệ thống chấm công vân tay sinh trắc học với hiệu ứng Biometric Scan Laser độc đáo, pipeline trích xuất ORB + RANSAC đa tầng và CSDL SQLite.</p>
-        <p align="center">
-          <a href="https://github.com/NDLong1601/Fingerprint-Attendance">
-            <img src="https://img.shields.io/badge/View_Repository-0175C2?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
-          </a>
-        </p>
-      </td>
-    </tr>
-  </table>
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
