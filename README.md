@@ -119,8 +119,8 @@
   <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/equalizer.svg" width="22" height="22" align="center" alt="Audio Waves" />
 </p>
 
-<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&redirect=true">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
+<a href="https://github.com/kittinan/spotify-github-profile">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=true&mode=dark" alt="spotify-github-profile" />
 </a>
 
 </div>
