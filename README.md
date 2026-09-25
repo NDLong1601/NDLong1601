@@ -109,7 +109,7 @@
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
-### 🎧 Spotify — Now Playing
+### 🎧 Spotify — Live Cyber Soundstage
 
 <div align="center">
 
@@ -119,9 +119,21 @@
   <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/equalizer.svg" width="22" height="22" align="center" alt="Audio Waves" />
 </p>
 
-<a href="https://github.com/kittinan/spotify-github-profile">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=true&mode=dark" alt="spotify-github-profile" />
-</a>
+<!-- 48-BAND PANORAMIC AUDIO SPECTRUM (FULL WIDTH) -->
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/audio-spectrum.svg" width="100%" alt="Audio Spectrum Visualizer" />
+
+<br/><br/>
+
+<!-- STEREO HI-FI STAGE: LEFT VU + SPOTIFY PLAYER + RIGHT VU -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/stereo-left.svg" width="130" height="152" alt="Stereo Left VU Monitor" />
+  &nbsp;
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=true&mode=dark" height="152" alt="spotify-github-profile" />
+  </a>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/stereo-right.svg" width="130" height="152" alt="Stereo Right VU Monitor" />
+</p>
 
 </div>
 

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 152" width="135" height="152">
+  <defs>
+    <linearGradient id="monBgR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="100%" stop-color="#0d1424"/>
+    </linearGradient>
+    <radialGradient id="coneGlowR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#00E5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#080c16" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .mon-frame { fill: url(#monBgR); stroke: #1e293b; stroke-width: 1.5; }
+    .mon-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace; font-size: 8px; font-weight: 700; letter-spacing: 0.8px; }
+    .val-text { font-family: monospace; font-size: 7px; fill: #64748b; }
+  </style>
+
+  <!-- Frame -->
+  <rect class="mon-frame" x="1" y="1" width="133" height="150" rx="8" />
+  
+  <!-- Header -->
+  <g transform="translate(10, 15)">
+    <text class="mon-text" x="4" y="3" fill="#64748b">VU-R</text>
+    <text class="mon-text" x="66" y="3" fill="#818CF8">RIGHT CH</text>
+    <circle cx="112" cy="0" r="3" fill="#818CF8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Vertical VU Meter Bar (Left Side) -->
+  <g transform="translate(16, 30)">
+    <!-- Scale labels -->
+    <text class="val-text" x="-10" y="10">+3</text>
+    <text class="val-text" x="-8" y="24">0</text>
+    <text class="val-text" x="-10" y="44">-6</text>
+    <text class="val-text" x="-12" y="64">-18</text>
+    <text class="val-text" x="-12" y="80">-40</text>
+
+    <!-- 10 Segment LEDs -->
+    <!-- Red (Peak) -->
+    <rect x="0" y="6" width="16" height="5" rx="1" fill="#ef4444">
+      <animate attributeName="opacity" values="0.1;0.2;0.8;0.1;0.9;0.1;0.2" dur="0.60s" repeatCount="indefinite" />
+    </rect>
+    <!-- Amber (Warn) -->
+    <rect x="0" y="14" width="16" height="5" rx="1" fill="#f59e0b">
+      <animate attributeName="opacity" values="0.3;0.8;1;0.2;1;0.4;0.2" dur="0.60s" repeatCount="indefinite" />
+    </rect>
+    <rect x="0" y="22" width="16" height="5" rx="1" fill="#f59e0b">
+      <animate attributeName="opacity" values="0.5;1;0.9;0.4;1;0.6;0.3" dur="0.60s" repeatCount="indefinite" />
+    </rect>
+    <!-- Blue/Violet (Normal) -->
+    <rect x="0" y="30" width="16" height="5" rx="1" fill="#3b82f6">
+      <animate attributeName="opacity" values="0.7;1;0.8;0.6;1;0.7;0.8" dur="0.60s" repeatCount="indefinite" />
+    </rect>
+    <rect x="0" y="38" width="16" height="5" rx="1" fill="#3b82f6">
+      <animate attributeName="opacity" values="0.8;1;0.9;0.7;1;0.8;0.9" dur="0.60s" repeatCount="indefinite" />
+    </rect>
+    <rect x="0" y="46" width="16" height="5" rx="1" fill="#3b82f6">
+      <animate attributeName="opacity" values="0.9;1;1;0.8;1;0.9;1" dur="0.60s" repeatCount="indefinite" />
+    </rect>
+    <rect x="0" y="54" width="16" height="5" rx="1" fill="#2563eb" opacity="1" />
+    <rect x="0" y="62" width="16" height="5" rx="1" fill="#1d4ed8" opacity="1" />
+    <rect x="0" y="70" width="16" height="5" rx="1" fill="#1e40af" opacity="1" />
+    <rect x="0" y="78" width="16" height="5" rx="1" fill="#1e3a8a" opacity="1" />
+  </g>
+
+  <!-- Subwoofer Woofer (Pulsing Bass - Right Side) -->
+  <g transform="translate(86, 68)">
+    <!-- Woofer outer ring -->
+    <circle cx="0" cy="0" r="30" fill="#0b0f19" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="0" cy="0" r="30" fill="url(#coneGlowR)" />
+    
+    <!-- Pulsing Bass Cone -->
+    <circle cx="0" cy="0" r="22" fill="#111827" stroke="#818CF8" stroke-width="1.5" opacity="0.9">
+      <animate attributeName="r" values="19;24;20;25;22;20;24" dur="0.60s" repeatCount="indefinite" />
+      <animate attributeName="stroke" values="#818CF8;#C084FC;#818CF8" dur="1.2s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Dust cap center -->
+    <circle cx="0" cy="0" r="10" fill="#1f2937" stroke="#C084FC" stroke-width="1">
+      <animate attributeName="r" values="8.5;11.5;9;12;10;9;11.5" dur="0.60s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="4" fill="#818CF8">
+      <animate attributeName="opacity" values="0.6;1;0.7;1;0.6" dur="0.60s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Footer Info -->
+  <g transform="translate(10, 138)">
+    <line x1="0" y1="-8" x2="115" y2="-8" stroke="#1e293b" stroke-width="1" />
+    <text class="val-text" x="4" y="3" fill="#818CF8">24-BIT</text>
+    <text class="mon-text" x="52" y="3" fill="#C084FC">HI-RES AUDIO</text>
+  </g>
+</svg>
