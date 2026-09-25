@@ -19,12 +19,20 @@
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
-### 🏆 GitHub Profile Trophies
+### 🏆 Arcade Milestones & Achievements
 
 <div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-trophies.devomb.com/?username=NDLong1601&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4" alt="NDLong1601 Trophies" />
-  </a>
+
+<!-- ARCADE ACHIEVEMENTS UNLOCKED -->
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/achievements.svg" width="100%" alt="Arcade Achievements" />
+
+<br/><br/>
+
+<!-- REALTIME GITHUB STREAK STATS -->
+<a href="https://github.com/NDLong1601">
+  <img src="https://streak-stats.demolab.com/?user=NDLong1601&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak Stats" />
+</a>
+
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
