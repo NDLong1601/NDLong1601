@@ -8,13 +8,14 @@
 
 <br/>
 
-<!-- PROFILE VIEWS COUNTER -->
+<!-- PROFILE STATS & FOLLOWERS -->
 [![Profile Views](https://komarev.com/ghpvc/?username=NDLong1601&color=0175C2&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/NDLong1601)
 [![GitHub Followers](https://img.shields.io/github/followers/NDLong1601?label=Followers&style=for-the-badge&color=238636&logo=github)](https://github.com/NDLong1601?tab=followers)
 
 </div>
 
----
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 🏆 GitHub Profile Trophies
 
@@ -24,7 +25,8 @@
   </a>
 </div>
 
----
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 🚀 About Me
 
@@ -57,6 +59,28 @@
 
 ---
 
+### 📟 Interactive Terminal Mockup (`$ npx ndlong`)
+
+```bash
+┌──(ndlong㉿workspace)-[~]
+└─$ ndlong --profile
+   [+] Name     : Nguyễn Đức Long
+   [+] Role     : Flutter & Mobile Application Engineer
+   [+] Focus    : Cross-Platform Performance, UI/UX Animation & AI Integration
+   [+] Location : Vietnam 🇻🇳
+   [+] Status   : Open to exciting freelance & full-time opportunities
+
+┌──(ndlong㉿workspace)-[~]
+└─$ ndlong --core-skills
+   ["Flutter", "Dart", "Clean Architecture", "Python", "OpenCV", "SQLite", "Firebase"]
+
+┌──(ndlong㉿workspace)-[~]
+└─$ ndlong --current-vibe
+   "Brewing coffee ☕, playing lofi on Spotify 🎧, and pushing clean commits 🚀"
+```
+
+---
+
 ### 💻 Developer Snapshot (`NDLong.dart`)
 
 ```dart
@@ -76,7 +100,8 @@ class FlutterDeveloper {
 }
 ```
 
----
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 🛠️ Tech Stack & Tooling
 
@@ -104,7 +129,8 @@ class FlutterDeveloper {
 
 </div>
 
----
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 📊 GitHub Activity & Streak
 
@@ -126,11 +152,18 @@ class FlutterDeveloper {
   </picture>
 </div>
 
----
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 🎧 Spotify — Now Playing
 
 <div align="center">
+
+<p>
+  <img src="https://raw.githubusercontent.com/DenverCoder1/DenverCoder1/master/assets/bars.gif" width="26" alt="Audio Waves" />
+  <b>&nbsp;Vibing while coding on Spotify&nbsp;</b>
+  <img src="https://raw.githubusercontent.com/DenverCoder1/DenverCoder1/master/assets/bars.gif" width="26" alt="Audio Waves" />
+</p>
 
 <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&redirect=true">
   <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
@@ -138,7 +171,8 @@ class FlutterDeveloper {
 
 </div>
 
----
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 🗂️ Featured Projects
 
@@ -175,7 +209,44 @@ class FlutterDeveloper {
   </tr>
 </table>
 
----
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+### 📂 More About Me (Click to Expand)
+
+<details>
+  <summary><b>🎯 Roadmap & Mục tiêu 2026</b></summary>
+  <br/>
+  <ul>
+    <li>🚀 <b>Publish Apps:</b> Phát hành tối thiểu 2 ứng dụng Flutter hoàn chỉnh lên Google Play & App Store.</li>
+    <li>🧠 <b>Master Architecture:</b> Đi sâu vào Clean Architecture kết hợp BLoC / Riverpod cho dự án lớn.</li>
+    <li>🤖 <b>AI on Mobile:</b> Nghiên cứu nhúng mô hình AI/ML nhẹ (TFLite / ONNX) chạy trực tiếp trên smartphone.</li>
+    <li>🌐 <b>Open Source:</b> Đóng góp tích cực hơn cho các thư viện mã nguồn mở Flutter/Dart.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>💡 Fun Facts & Thói quen</b></summary>
+  <br/>
+  <ul>
+    <li>🌙 <b>Thời điểm vàng:</b> Khung giờ đêm khuya là lúc các thuật toán và ý tưởng UI chạy mượt nhất.</li>
+    <li>⌨️ <b>Setup yêu thích:</b> Bàn phím cơ gõ tanh tách + 1 ly cà phê đá + Playlist Lofi chill.</li>
+    <li>🎨 <b>Pixel-Perfect:</b> Cảm giác thỏa mãn nhất là biến bản vẽ thiết kế trên Figma thành widget Flutter mượt mà từng pixel.</li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>📚 Tech Radar & Đang theo dõi</b></summary>
+  <br/>
+  <ul>
+    <li>📱 <b>Flutter 3.x & Dart 3+:</b> Pattern Matching, Records, FFI Native Interop.</li>
+    <li>🗄️ <b>Local-First Databases:</b> SQLite, Hive, Isar, ObjectBox.</li>
+    <li>⚙️ <b>Mobile CI/CD:</b> Fastlane & GitHub Actions tự động build APK / App Bundle.</li>
+  </ul>
+</details>
+
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4380-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 💬 Daily Dev Quote
 
