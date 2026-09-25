@@ -80,6 +80,16 @@ status  : Open to Collaboration 🤝
 
 ---
 
+## 🎧 Spotify — Now Playing
+
+<div align="center">
+
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31m7a5msuawy6lv63bl25ffxl26q&redirect=true)
+
+</div>
+
+---
+
 ## 🗂️ Dự án nổi bật
 
 <div align="center">
