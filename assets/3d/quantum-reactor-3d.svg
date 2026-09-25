@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 310" width="100%" height="310">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="qBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040714"/>
+      <stop offset="50%" stop-color="#091024"/>
+      <stop offset="100%" stop-color="#03050d"/>
+    </linearGradient>
+
+    <!-- Top Neon Accent -->
+    <linearGradient id="qAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="35%" stop-color="#818CF8"/>
+      <stop offset="70%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Plasma Core Glow -->
+    <radialGradient id="plasmaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#00E5FF" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#4f46e5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#03050d" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="reactorGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .q-frame { fill: url(#qBg); stroke: #1e293b; stroke-width: 1.5; }
+    .hud-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; font-size: 10px; font-weight: 800; letter-spacing: 1.2px; }
+    .hud-sub { font-family: monospace; font-size: 9px; font-weight: 700; fill: #64748b; }
+    .panel-header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; font-size: 9.5px; font-weight: 800; letter-spacing: 1px; }
+    .panel-label { font-family: monospace; font-size: 8.5px; fill: #64748b; }
+    .panel-val { font-family: monospace; font-size: 9px; font-weight: 700; fill: #f8fafc; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect class="q-frame" x="2" y="2" width="846" height="306" rx="12" />
+
+  <!-- Top Accent Strip -->
+  <rect x="20" y="2" width="810" height="2" fill="url(#qAccent)" rx="1" filter="url(#reactorGlow)" />
+
+  <!-- HUD Header -->
+  <g transform="translate(24, 20)">
+    <circle cx="0" cy="0" r="3.5" fill="#38BDF8">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" />
+    </circle>
+    <text class="hud-title" x="12" y="3" fill="#38BDF8">[3D MODEL C] QUANTUM MATRIX AI REACTOR // MOBILE NEURAL CORE</text>
+    <text class="hud-sub" x="495" y="3">|</text>
+    <text class="hud-sub" x="508" y="3" fill="#10B981">CORE CONTAINMENT: 100% STABLE</text>
+
+    <!-- Right Header -->
+    <text class="hud-sub" x="650" y="3">OUTPUT: <tspan fill="#00E5FF">1.21 GW</tspan></text>
+    <text class="hud-sub" x="765" y="3">|</text>
+    <text class="hud-sub" x="778" y="3" fill="#A855F7">● 10,000°K</text>
+  </g>
+
+  <!-- ==================== LEFT PANEL: PLASMA & TENSOR METRICS ==================== -->
+  <g transform="translate(24, 46)">
+    <rect x="0" y="0" width="200" height="245" rx="8" fill="#080d1d" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="10" y="10" width="180" height="22" rx="4" fill="#0c1833" stroke="#00E5FF" stroke-width="0.8" />
+    <text class="panel-header" x="18" y="25" fill="#00E5FF">⚛️ QUANTUM METRICS</text>
+
+    <g transform="translate(14, 52)">
+      <text class="panel-label" x="0" y="0">PLASMA CORE STATE</text>
+      <text class="panel-val" x="0" y="14" fill="#38BDF8">Supercritical Fusion</text>
+
+      <text class="panel-label" x="0" y="36">TENSOR THROUGHPUT</text>
+      <text class="panel-val" x="0" y="50" fill="#10B981">14.8 TFLOPS (NPU Accel)</text>
+
+      <text class="panel-label" x="0" y="72">MAGNETIC FLUX</text>
+      <text class="panel-val" x="0" y="86" fill="#818CF8">42.5 Tesla (Shielded)</text>
+
+      <text class="panel-label" x="0" y="108">AI MODEL CAPACITY</text>
+      <text class="panel-val" x="0" y="122" fill="#F472B6">Vision • NLP • On-Device</text>
+
+      <text class="panel-label" x="0" y="144">COOLING SYSTEM</text>
+      <text class="panel-val" x="0" y="158" fill="#34D399">Liquid Nitrogen (-196°C)</text>
+    </g>
+
+    <line x1="12" y1="228" x2="188" y2="228" stroke="#1e293b" stroke-width="1" />
+    <text class="panel-label" x="14" y="240" fill="#64748b">HEALTH: <tspan fill="#10B981">OPTIMAL</tspan> | CORE ID: <tspan fill="#38BDF8">QM-1601</tspan></text>
+  </g>
+
+  <!-- ==================== CENTER: 3D QUANTUM FUSION REACTOR ==================== -->
+  <g class="quantum-reactor" transform="translate(0, 0)">
+
+    <!-- Floor Drop Shadow of the Heavy Rings -->
+    <ellipse cx="425" cy="245" rx="90" ry="18" fill="#000000" opacity="0.6"/>
+
+    <!-- 4 High-Voltage Electric Pylons at 4 corners of reactor -->
+    <!-- Top-Left Pylon -->
+    <line x1="325" y1="85" x2="355" y2="110" stroke="#475569" stroke-width="3"/>
+    <circle cx="355" cy="110" r="4" fill="#00E5FF"/>
+    <!-- Top-Right Pylon -->
+    <line x1="525" y1="85" x2="495" y2="110" stroke="#475569" stroke-width="3"/>
+    <circle cx="495" cy="110" r="4" fill="#00E5FF"/>
+    <!-- Bottom-Left Pylon -->
+    <line x1="325" y1="235" x2="355" y2="210" stroke="#475569" stroke-width="3"/>
+    <circle cx="355" cy="210" r="4" fill="#00E5FF"/>
+    <!-- Bottom-Right Pylon -->
+    <line x1="525" y1="235" x2="495" y2="210" stroke="#475569" stroke-width="3"/>
+    <circle cx="495" cy="210" r="4" fill="#00E5FF"/>
+
+    <!-- Dynamic Electric Lightning Arcs sparking into Core -->
+    <path d="M355,110 Q385,140 425,160" fill="none" stroke="#00E5FF" stroke-width="1.8" filter="url(#reactorGlow)">
+      <animate attributeName="opacity" values="0.2;1;0.1;0.9;0.3" dur="0.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M495,110 Q465,130 425,160" fill="none" stroke="#38BDF8" stroke-width="1.8" filter="url(#reactorGlow)">
+      <animate attributeName="opacity" values="0.9;0.1;0.8;0.2;0.9" dur="0.35s" repeatCount="indefinite"/>
+    </path>
+    <path d="M355,210 Q395,185 425,160" fill="none" stroke="#818CF8" stroke-width="1.8" filter="url(#reactorGlow)">
+      <animate attributeName="opacity" values="0.1;0.8;0.3;1;0.2" dur="0.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M495,210 Q460,180 425,160" fill="none" stroke="#A855F7" stroke-width="1.8" filter="url(#reactorGlow)">
+      <animate attributeName="opacity" values="0.8;0.2;1;0.1;0.8" dur="0.45s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Outer Hexagonal Force Field Shield (Pulsing) -->
+    <polygon points="425,75 500,118 500,202 425,245 350,202 350,118" 
+             fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="6,4" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 425 160" to="360 425 160" dur="30s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- 3D Heavy Titanium Gyroscope Rings (3-Axis multi-rotation) -->
+    <!-- Ring 1: Yaw (Yaw axis 360) -->
+    <ellipse cx="425" cy="160" rx="78" ry="78" fill="none" stroke="#334155" stroke-width="3" stroke-dasharray="16,8"/>
+    <ellipse cx="425" cy="160" rx="78" ry="78" fill="none" stroke="#00E5FF" stroke-width="2" stroke-dasharray="8,12">
+      <animateTransform attributeName="transform" type="rotate" from="0 425 160" to="360 425 160" dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Ring 2: Tilted Pitch Axis -->
+    <ellipse cx="425" cy="160" rx="62" ry="24" fill="none" stroke="#818CF8" stroke-width="2.5" opacity="0.85">
+      <animate attributeName="ry" values="62;6;62;6;62" dur="4.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="35 425 160" to="395 425 160" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Ring 3: Inner Fast Roll Axis -->
+    <ellipse cx="425" cy="160" rx="24" ry="46" fill="none" stroke="#A855F7" stroke-width="2.5" opacity="0.9">
+      <animate attributeName="rx" values="46;5;46;5;46" dur="3.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="-40 425 160" to="320 425 160" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Central Blazing Plasma Core -->
+    <circle cx="425" cy="160" r="38" fill="url(#plasmaGlow)"/>
+    <circle cx="425" cy="160" r="18" fill="#00E5FF" filter="url(#reactorGlow)">
+      <animate attributeName="r" values="16;22;16" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#00E5FF;#818CF8;#00E5FF" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="425" cy="160" r="6" fill="#ffffff"/>
+
+    <text x="425" y="258" font-family="monospace" font-size="8" font-weight="900" fill="#00E5FF" text-anchor="middle">CONTAINMENT LEVEL: MAX</text>
+  </g>
+
+  <!-- ==================== RIGHT PANEL: NEURAL COMPUTATION PIPELINE ==================== -->
+  <g transform="translate(626, 46)">
+    <rect x="0" y="0" width="200" height="245" rx="8" fill="#080d1d" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="10" y="10" width="180" height="22" rx="4" fill="#180e2b" stroke="#A855F7" stroke-width="0.8" />
+    <text class="panel-header" x="18" y="25" fill="#A855F7">🧠 AI ON-DEVICE ENGINE</text>
+
+    <g transform="translate(14, 52)">
+      <text class="panel-label" x="0" y="0">MODEL RUNTIME</text>
+      <text class="panel-val" x="0" y="14" fill="#38BDF8">TensorFlow Lite / ONNX</text>
+
+      <text class="panel-label" x="0" y="36">INFERENCE LATENCY</text>
+      <text class="panel-val" x="0" y="50" fill="#10B981">4.2 ms (Real-time Video)</text>
+
+      <text class="panel-label" x="0" y="72">QUANTIZATION</text>
+      <text class="panel-val" x="0" y="86" fill="#818CF8">INT8 / FP16 Precision</text>
+
+      <text class="panel-label" x="0" y="108">COMPUTER VISION</text>
+      <text class="panel-val" x="0" y="122" fill="#F472B6">Pose • Objects • Biometrics</text>
+
+      <text class="panel-label" x="0" y="144">OFFLINE PRIVACY</text>
+      <text class="panel-val" x="0" y="158" fill="#FBBF24">100% Zero Cloud Dependency</text>
+    </g>
+
+    <line x1="12" y1="228" x2="188" y2="228" stroke="#1e293b" stroke-width="1" />
+    <text class="panel-label" x="14" y="240" fill="#64748b">STATUS: <tspan fill="#10B981">HOT LOADED</tspan> | CORE: <tspan fill="#38BDF8">TFLITE-3D</tspan></text>
+  </g>
+</svg>

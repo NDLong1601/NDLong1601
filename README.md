@@ -158,54 +158,30 @@
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
-### 🧪 3D Animation Lab & Showcase (10 Experimental Demos)
+### 🧪 3D Masterpiece Gallery (3 Hi-Fi Experimental Models)
 
 > [!TIP]
-> **Phòng Thí Nghiệm 3D Animation (10 Demos Hoạt Ảnh Sống Động):**
-> Bạn hãy quan sát trực tiếp các hiệu ứng chuyển động 3D bên dưới. Sau khi xem, bạn chỉ cần chọn số thứ tự mà bạn ưng ý nhất (ví dụ: *chọn số 1, 2, 5...*), tôi sẽ giữ lại các mẫu được chọn và tối ưu vị trí hiển thị chuẩn nhất cho bạn!
+> **Bộ 3 Siêu Phẩm 3D Animation Toàn Cảnh (High-Fidelity Centerpieces):**
+> Dưới đây là 3 mô hình 3D chi tiết cao với hệ thống chuyển động, đổ bóng đa tầng và vi mạch neon độc lập. Hãy xem trực tiếp trên profile và chọn mẫu bạn muốn giữ lại!
 
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/01-tech-cube.svg" width="100%" alt="3D Tech Cube" />
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/02-mobile-layers.svg" width="100%" alt="3D Floating Mobile Layers" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/03-gyroscope.svg" width="100%" alt="3D Multi-Axis Gyroscope" />
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/04-cyber-coin.svg" width="100%" alt="3D Flipping Cyber Coin" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/05-holo-card.svg" width="100%" alt="3D Parallax Holo Card" />
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/06-warp-tunnel.svg" width="100%" alt="3D Infinite Warp Tunnel" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/07-neural-net.svg" width="100%" alt="3D Neural Synapse Network" />
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/08-mobius-strip.svg" width="100%" alt="3D Infinite Mobius Strip" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/09-isometric-keys.svg" width="100%" alt="3D Isometric Keycaps Wave" />
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/10-cyber-drone.svg" width="100%" alt="3D Hovering Cyber Drone" />
-    </td>
-  </tr>
-</table>
+#### 📱 [Mẫu A] The Ultimate Flutter 3D Isometric Device Lab
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/flutter-device-lab.svg" width="100%" alt="Flutter 3D Device Lab" />
+</div>
+
+<br/>
+
+#### 🕹️ [Mẫu B] Retro 3D Arcade Cabinet Simulator
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/arcade-cabinet-3d.svg" width="100%" alt="Retro Arcade 3D Cabinet" />
+</div>
+
+<br/>
+
+#### ⚛️ [Mẫu C] Quantum Matrix AI Fusion Reactor
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/quantum-reactor-3d.svg" width="100%" alt="Quantum Matrix 3D Reactor" />
+</div>
 
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />

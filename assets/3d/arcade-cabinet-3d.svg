@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 310" width="100%" height="310">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="arcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080612"/>
+      <stop offset="50%" stop-color="#120c24"/>
+      <stop offset="100%" stop-color="#06040d"/>
+    </linearGradient>
+
+    <!-- Marquee Neon Glow -->
+    <linearGradient id="marqGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF007A"/>
+      <stop offset="30%" stop-color="#FFB800"/>
+      <stop offset="70%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#FF007A"/>
+      <animate attributeName="x1" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- CRT Screen Green Matrix -->
+    <radialGradient id="crtGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#082f49" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <filter id="arcGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .arc-frame { fill: url(#arcBg); stroke: #2e1065; stroke-width: 1.5; }
+    .hud-title { font-family: 'Courier New', Courier, monospace; font-size: 10px; font-weight: 900; letter-spacing: 1.2px; }
+    .hud-sub { font-family: monospace; font-size: 9px; font-weight: 700; fill: #64748b; }
+    .pixel-text { font-family: 'Courier New', Courier, monospace; font-weight: 900; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect class="arc-frame" x="2" y="2" width="846" height="306" rx="12" />
+
+  <!-- Top Accent Strip -->
+  <rect x="20" y="2" width="810" height="2" fill="url(#marqGrad)" rx="1" filter="url(#arcGlow)" />
+
+  <!-- HUD Header -->
+  <g transform="translate(24, 20)">
+    <circle cx="0" cy="0" r="3.5" fill="#FFB800">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite" />
+    </circle>
+    <text class="hud-title" x="12" y="3" fill="#FFB800">[3D MODEL B] RETRO ARCADE 3D CABINET // CABINET ID: FLUTTER-8BIT</text>
+    <text class="hud-sub" x="525" y="3">|</text>
+    <text class="hud-sub" x="538" y="3" fill="#00E5FF">INSERT COIN 25¢</text>
+
+    <!-- Right Header -->
+    <text class="hud-sub" x="670" y="3">CREDITS: <tspan fill="#10B981">99</tspan></text>
+    <text class="hud-sub" x="765" y="3">|</text>
+    <text class="hud-sub" x="778" y="3" fill="#EC4899">★ HI-RES</text>
+  </g>
+
+  <!-- ==================== LEFT PANEL: ARCADE HIGHSCORES ==================== -->
+  <g transform="translate(24, 46)">
+    <rect x="0" y="0" width="200" height="245" rx="8" fill="#0d091a" stroke="#2e1065" stroke-width="1.2" />
+    <rect x="10" y="10" width="180" height="22" rx="4" fill="#1f113a" stroke="#FF007A" stroke-width="0.8" />
+    <text x="22" y="25" class="pixel-text" font-size="10" fill="#FF007A">🏆 ALL-TIME HIGHSCORES</text>
+
+    <g transform="translate(14, 52)">
+      <!-- Rank 1 -->
+      <text class="pixel-text" font-size="9" x="0" y="0" fill="#FFB800">1ST</text>
+      <text class="pixel-text" font-size="9" x="38" y="0" fill="#ffffff">NDL</text>
+      <text class="pixel-text" font-size="9" x="110" y="0" fill="#10B981">999,999</text>
+
+      <!-- Rank 2 -->
+      <text class="pixel-text" font-size="9" x="0" y="24" fill="#CBD5E1">2ND</text>
+      <text class="pixel-text" font-size="9" x="38" y="24" fill="#ffffff">DART</text>
+      <text class="pixel-text" font-size="9" x="110" y="24" fill="#38BDF8">850,400</text>
+
+      <!-- Rank 3 -->
+      <text class="pixel-text" font-size="9" x="0" y="48" fill="#B45309">3RD</text>
+      <text class="pixel-text" font-size="9" x="38" y="48" fill="#ffffff">FLTR</text>
+      <text class="pixel-text" font-size="9" x="110" y="48" fill="#818CF8">720,150</text>
+
+      <!-- Rank 4 -->
+      <text class="pixel-text" font-size="9" x="0" y="72" fill="#64748b">4TH</text>
+      <text class="pixel-text" font-size="9" x="38" y="72" fill="#94a3b8">BLOC</text>
+      <text class="pixel-text" font-size="9" x="110" y="72" fill="#64748b">610,000</text>
+
+      <!-- Rank 5 -->
+      <text class="pixel-text" font-size="9" x="0" y="96" fill="#64748b">5TH</text>
+      <text class="pixel-text" font-size="9" x="38" y="96" fill="#94a3b8">AI-M</text>
+      <text class="pixel-text" font-size="9" x="110" y="96" fill="#64748b">540,800</text>
+    </g>
+
+    <line x1="12" y1="180" x2="188" y2="180" stroke="#2e1065" stroke-width="1" />
+    <g transform="translate(14, 205)">
+      <circle cx="8" cy="0" r="4" fill="#FF007A">
+        <animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <text class="pixel-text" font-size="9" x="20" y="3" fill="#00E5FF">PLAYER 1 READY</text>
+      <text font-family="monospace" font-size="7.5" x="20" y="16" fill="#64748b">PRESS START BUTTON</text>
+    </g>
+  </g>
+
+  <!-- ==================== CENTER: 3D ISOMETRIC ARCADE CABINET ==================== -->
+  <g class="arcade-cabinet" transform="translate(425, 45)">
+
+    <!-- Floor Drop Shadow of the Cabinet -->
+    <polygon points="-80,240 80,240 120,252 -40,252" fill="#000000" opacity="0.6"/>
+
+    <!-- Left Cabinet Outer Side Panel (Isometric Side-Art) -->
+    <polygon points="-80,30 -50,10 -50,225 -80,245" fill="#1e1035" stroke="#7e22ce" stroke-width="1.5"/>
+    <!-- Cabinet Left Side Art: Flutter 8-Bit bird -->
+    <polygon points="-75,80 -55,68 -55,140 -75,152" fill="#0284c7" opacity="0.6"/>
+    <text x="-65" y="115" class="pixel-text" font-size="8" fill="#00E5FF" transform="rotate(70 -65 115)">FLUTTER</text>
+
+    <!-- Main Front Faces of the Cabinet -->
+    <!-- 1. TOP MARQUEE LIGHTBOX -->
+    <polygon points="-50,10 60,10 60,40 -50,40" fill="#0f0728" stroke="#a855f7" stroke-width="1.5"/>
+    <rect x="-42" y="15" width="94" height="20" rx="3" fill="#000000"/>
+    <text x="5" y="29" class="pixel-text" font-size="9" fill="url(#marqGrad)" text-anchor="middle" filter="url(#arcGlow)">★ FLUTTER 8-BIT ★</text>
+
+    <!-- 2. CURVED CRT SCREEN SECTION -->
+    <polygon points="-50,40 60,40 50,120 -60,120" fill="#020617" stroke="#38bdf8" stroke-width="1.8"/>
+    <!-- CRT Screen Glass -->
+    <polygon points="-46,45 56,45 46,115 -56,115" fill="url(#crtGlow)"/>
+
+    <!-- Mini-Game on Screen: Spaceship & Stars -->
+    <g transform="translate(0, 80)">
+      <!-- Player Spaceship (Flutter Diamond) -->
+      <polygon points="0,-12 8,2 -8,2" fill="#00E5FF">
+        <animateTransform attributeName="transform" type="translate" values="-15 0; 15 0; -15 0" dur="2.4s" repeatCount="indefinite"/>
+      </polygon>
+      <!-- Laser bullets shooting up -->
+      <line x1="0" y1="-14" x2="0" y2="-28" stroke="#FF007A" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="translate" values="-15 0; 15 0; -15 0" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0;1" dur="0.3s" repeatCount="indefinite"/>
+      </line>
+
+      <!-- Alien Bug Enemy at top of screen -->
+      <polygon points="0,-26 6,-32 -6,-32" fill="#10B981"/>
+      <circle cx="-4" cy="-30" r="1" fill="#ffffff"/>
+      <circle cx="4" cy="-30" r="1" fill="#ffffff"/>
+
+      <!-- Score on CRT Screen -->
+      <text x="-42" y="-25" class="pixel-text" font-size="6" fill="#FBBF24">1UP 2600</text>
+      <text x="18" y="-25" class="pixel-text" font-size="6" fill="#10B981">HIGH 99K</text>
+    </g>
+
+    <!-- CRT Horizontal Scanlines -->
+    <line x1="-48" y1="58" x2="52" y2="58" stroke="#00E5FF" stroke-width="0.5" opacity="0.3"/>
+    <line x1="-50" y1="72" x2="50" y2="72" stroke="#00E5FF" stroke-width="0.5" opacity="0.3"/>
+    <line x1="-52" y1="86" x2="48" y2="86" stroke="#00E5FF" stroke-width="0.5" opacity="0.3"/>
+    <line x1="-54" y1="100" x2="46" y2="100" stroke="#00E5FF" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- 3. ISOMETRIC CONTROL DECK (Tilted flat forward) -->
+    <polygon points="-60,120 50,120 75,160 -45,160" fill="#1e1b4b" stroke="#818CF8" stroke-width="1.5"/>
+
+    <!-- 3D Joystick (Animated tilting) -->
+    <g transform="translate(-15, 138)">
+      <!-- Joystick Base Washer -->
+      <ellipse cx="0" cy="5" rx="8" ry="4" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+      <!-- Joystick Shaft -->
+      <line x1="0" y1="5" x2="4" y2="-12" stroke="#94a3b8" stroke-width="2.5">
+        <animate attributeName="x2" values="4;-4;2;-3;4" dur="2.4s" repeatCount="indefinite"/>
+      </line>
+      <!-- Joystick Red Ball Top -->
+      <circle cx="4" cy="-14" r="6" fill="#EF4444" stroke="#991B1B" stroke-width="1">
+        <animate attributeName="cx" values="4;-4;2;-3;4" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- 6 Arcade Push Buttons (RGB Illumination) -->
+    <!-- Row 1 -->
+    <ellipse cx="15" cy="132" rx="4" ry="2.5" fill="#10B981" stroke="#059669" stroke-width="0.8"/>
+    <ellipse cx="28" cy="132" rx="4" ry="2.5" fill="#38BDF8" stroke="#0284c7" stroke-width="0.8"/>
+    <ellipse cx="41" cy="132" rx="4" ry="2.5" fill="#EC4899" stroke="#be185d" stroke-width="0.8"/>
+    <!-- Row 2 -->
+    <ellipse cx="18" cy="144" rx="4" ry="2.5" fill="#FBBF24" stroke="#d97706" stroke-width="0.8"/>
+    <ellipse cx="31" cy="144" rx="4" ry="2.5" fill="#A855F7" stroke="#7e22ce" stroke-width="0.8"/>
+    <ellipse cx="44" cy="144" rx="4" ry="2.5" fill="#F43F5E" stroke="#9f1239" stroke-width="0.8"/>
+
+    <!-- 4. LOWER CABINET DOOR & COIN DOOR -->
+    <polygon points="-45,160 75,160 75,235 -45,235" fill="#0f0728" stroke="#4c1d95" stroke-width="1.5"/>
+
+    <!-- Coin Door Box -->
+    <rect x="-10" y="175" width="40" height="45" rx="3" fill="#1e1035" stroke="#7e22ce" stroke-width="1"/>
+    <!-- 2 Coin Reject Slots -->
+    <rect x="-2" y="185" width="10" height="15" rx="1" fill="#020617" stroke="#F59E0B" stroke-width="1"/>
+    <text x="3" y="196" class="pixel-text" font-size="6" fill="#FBBF24" text-anchor="middle">25¢</text>
+
+    <rect x="14" y="185" width="10" height="15" rx="1" fill="#020617" stroke="#F59E0B" stroke-width="1"/>
+    <text x="19" y="196" class="pixel-text" font-size="6" fill="#FBBF24" text-anchor="middle">25¢</text>
+  </g>
+
+  <!-- ==================== RIGHT PANEL: SOUND & JOYSTICK TELEMETRY ==================== -->
+  <g transform="translate(626, 46)">
+    <rect x="0" y="0" width="200" height="245" rx="8" fill="#0d091a" stroke="#2e1065" stroke-width="1.2" />
+    <rect x="10" y="10" width="180" height="22" rx="4" fill="#1f113a" stroke="#00E5FF" stroke-width="0.8" />
+    <text x="22" y="25" class="pixel-text" font-size="10" fill="#00E5FF">🕹️ CHIPTUNE &amp; INPUTS</text>
+
+    <g transform="translate(14, 52)">
+      <text class="hud-sub" x="0" y="0">SOUNDTRACK</text>
+      <text class="pixel-text" font-size="8.5" x="0" y="14" fill="#F472B6">8-Bit Cyber Synthwave</text>
+
+      <text class="hud-sub" x="0" y="36">INPUT LATENCY</text>
+      <text class="pixel-text" font-size="8.5" x="0" y="50" fill="#10B981">1.2ms (Zero Lag Switch)</text>
+
+      <text class="hud-sub" x="0" y="72">CRT REFRESH</text>
+      <text class="pixel-text" font-size="8.5" x="0" y="86" fill="#00E5FF">120Hz RGB Phosphor</text>
+
+      <text class="hud-sub" x="0" y="108">CABINET MODE</text>
+      <text class="pixel-text" font-size="8.5" x="0" y="122" fill="#FBBF24">FREE PLAY / UNLIMITED</text>
+    </g>
+
+    <!-- Mini 8-Bit Equalizer Bars in Cabinet Audio -->
+    <g transform="translate(18, 205)">
+      <rect x="0" y="0" width="8" height="20" rx="1" fill="#FF007A">
+        <animate attributeName="height" values="20;8;24;14;20" dur="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="0;12;-4;6;0" dur="0.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="14" y="0" width="8" height="24" rx="1" fill="#FFB800">
+        <animate attributeName="height" values="24;12;28;8;24" dur="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="0;12;-4;16;0" dur="0.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="28" y="0" width="8" height="16" rx="1" fill="#10B981">
+        <animate attributeName="height" values="16;24;8;20;16" dur="0.7s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="0;-8;8;-4;0" dur="0.7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="42" y="0" width="8" height="28" rx="1" fill="#00E5FF">
+        <animate attributeName="height" values="28;14;20;10;28" dur="0.45s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="0;14;8;18;0" dur="0.45s" repeatCount="indefinite"/>
+      </rect>
+      <text x="65" y="14" class="pixel-text" font-size="8" fill="#38BDF8">CHIP-8 STEREO</text>
+    </g>
+  </g>
+</svg>

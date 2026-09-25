@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 310" width="100%" height="310">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="labBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a16"/>
+      <stop offset="50%" stop-color="#0a1024"/>
+      <stop offset="100%" stop-color="#050812"/>
+    </linearGradient>
+
+    <!-- Top Neon Accent -->
+    <linearGradient id="labAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="35%" stop-color="#3B82F6"/>
+      <stop offset="70%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+
+    <!-- Glass Card Gradient -->
+    <linearGradient id="glassCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Screen Wallpaper Gradient -->
+    <linearGradient id="phoneScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="labGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .lab-frame { fill: url(#labBg); stroke: #1e293b; stroke-width: 1.5; }
+    .hud-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; font-size: 10px; font-weight: 800; letter-spacing: 1.2px; }
+    .hud-sub { font-family: monospace; font-size: 9px; font-weight: 700; fill: #64748b; }
+    .panel-header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; font-size: 9.5px; font-weight: 800; letter-spacing: 1px; }
+    .panel-label { font-family: monospace; font-size: 8.5px; fill: #64748b; }
+    .panel-val { font-family: monospace; font-size: 9px; font-weight: 700; fill: #f8fafc; }
+    .widget-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 8px; font-weight: 700; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect class="lab-frame" x="2" y="2" width="846" height="306" rx="12" />
+
+  <!-- Top Accent Strip -->
+  <rect x="20" y="2" width="810" height="2" fill="url(#labAccent)" rx="1" filter="url(#labGlow)" />
+
+  <!-- HUD Header -->
+  <g transform="translate(24, 20)">
+    <circle cx="0" cy="0" r="3.5" fill="#00E5FF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite" />
+    </circle>
+    <text class="hud-title" x="12" y="3" fill="#00E5FF">[3D MODEL A] THE ULTIMATE FLUTTER 3D ISOMETRIC DEVICE LAB</text>
+    <text class="hud-sub" x="475" y="3">|</text>
+    <text class="hud-sub" x="488" y="3" fill="#10B981">IMPELLER 3D PIPELINE: ACTIVE</text>
+
+    <!-- Right Header -->
+    <text class="hud-sub" x="630" y="3">TARGET: <tspan fill="#38BDF8">iOS • ANDROID</tspan></text>
+    <text class="hud-sub" x="755" y="3">|</text>
+    <text class="hud-sub" x="768" y="3" fill="#EC4899">60.0 FPS</text>
+  </g>
+
+  <!-- ==================== LEFT PANEL: ARCHITECTURE & SPECS ==================== -->
+  <g transform="translate(24, 46)">
+    <rect x="0" y="0" width="200" height="245" rx="8" fill="#090e1e" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="10" y="10" width="180" height="22" rx="4" fill="#0d1833" stroke="#00E5FF" stroke-width="0.8" />
+    <text class="panel-header" x="18" y="25" fill="#00E5FF">⚡ ENGINE &amp; TECH SPECS</text>
+
+    <g transform="translate(14, 52)">
+      <text class="panel-label" x="0" y="0">CORE ENGINE</text>
+      <text class="panel-val" x="0" y="14" fill="#38BDF8">Flutter 3.x (Dart 3+)</text>
+
+      <text class="panel-label" x="0" y="36">GRAPHICS</text>
+      <text class="panel-val" x="0" y="50" fill="#10B981">Impeller Hardware Accel</text>
+
+      <text class="panel-label" x="0" y="72">ARCHITECTURE</text>
+      <text class="panel-val" x="0" y="86" fill="#818CF8">Clean Arch + BLoC</text>
+
+      <text class="panel-label" x="0" y="108">UI FIDELITY</text>
+      <text class="panel-val" x="0" y="122" fill="#F472B6">Pixel-Perfect Glass 3D</text>
+
+      <text class="panel-label" x="0" y="144">STATE MANAGEMENT</text>
+      <text class="panel-val" x="0" y="158" fill="#FBBF24">Riverpod / Reactive</text>
+    </g>
+
+    <!-- Mini FPS Graph -->
+    <line x1="12" y1="228" x2="188" y2="228" stroke="#1e293b" stroke-width="1" />
+    <text class="panel-label" x="14" y="240" fill="#64748b">JANK RATIO: <tspan fill="#10B981">0.00%</tspan> | MEM: <tspan fill="#38BDF8">48MB</tspan></text>
+  </g>
+
+  <!-- ==================== CENTER: 3D ISOMETRIC EXPLODED DEVICE ==================== -->
+  <!-- Center is around X=425, Y=160 -->
+  <g class="device-3d" transform="translate(425, 145)">
+
+    <!-- Floor Drop Shadow of the phone -->
+    <polygon points="-120,110 120,110 150,150 -90,150" fill="#000000" opacity="0.6"/>
+
+    <!-- ==================== LAYER 1: BASE CHASSIS (HARDWARE) ==================== -->
+    <g transform="translate(0, 70)">
+      <!-- Chassis Body -->
+      <polygon points="-110,-40 110,-40 145,55 -75,55" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+      <!-- Thickness Edge -->
+      <polygon points="-75,55 145,55 145,67 -75,67" fill="#090d16" stroke="#1e293b"/>
+      <!-- Camera Module Bump -->
+      <polygon points="-90,-30 -40,-30 -30,0 -80,0" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="-65" cy="-18" r="5" fill="#0284c7" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="-48" cy="-12" r="5" fill="#0284c7" stroke="#38bdf8" stroke-width="1"/>
+      <text x="110" y="50" font-family="monospace" font-size="7.5" font-weight="bold" fill="#64748b">L1: TITANIUM CHASSIS</text>
+    </g>
+
+    <!-- Connecting Vertical Laser Guide Rays -->
+    <line x1="-100" y1="105" x2="-100" y2="-45" stroke="#00E5FF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+    <line x1="100" y1="105" x2="100" y2="-45" stroke="#00E5FF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+    <line x1="135" y1="200" x2="135" y2="50" stroke="#00E5FF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+    <line x1="-65" y1="200" x2="-65" y2="50" stroke="#00E5FF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+
+    <!-- ==================== LAYER 2: AMOLED GLASS DISPLAY (HOVERING) ==================== -->
+    <g transform="translate(0, 15)">
+      <animateTransform attributeName="transform" type="translate" values="0 18; 0 10; 0 18" dur="3.2s" repeatCount="indefinite"/>
+      
+      <!-- Glowing Glass Screen -->
+      <polygon points="-105,-38 105,-38 138,50 -72,50" fill="url(#phoneScreen)" stroke="#00E5FF" stroke-width="1.8" filter="url(#labGlow)"/>
+      <polygon points="-105,-38 105,-38 138,50 -72,50" fill="url(#phoneScreen)" stroke="#38BDF8" stroke-width="1.2"/>
+
+      <!-- Dynamic Island on Screen -->
+      <polygon points="-15,-35 15,-35 18,-28 -12,-28" fill="#000000" rx="3"/>
+
+      <!-- App Interface Content: Wallpaper wave lines -->
+      <path d="M-80,20 Q0,-20 110,20" fill="none" stroke="#00E5FF" stroke-width="1.2" opacity="0.6"/>
+      <path d="M-60,35 Q20,-5 125,35" fill="none" stroke="#818CF8" stroke-width="1.2" opacity="0.6"/>
+
+      <text x="105" y="45" font-family="monospace" font-size="7.5" font-weight="bold" fill="#00E5FF">L2: AMOLED DISPLAY</text>
+    </g>
+
+    <!-- ==================== LAYER 3: FLOATING 3D FLUTTER WIDGETS ==================== -->
+    <g transform="translate(0, -50)">
+      <animateTransform attributeName="transform" type="translate" values="0 -45; 0 -58; 0 -45" dur="2.8s" repeatCount="indefinite"/>
+
+      <!-- Widget 1: Glassmorphism Visa Card (Floating high) -->
+      <g transform="translate(-25, 0)">
+        <!-- Card Body -->
+        <polygon points="-65,-22 45,-22 65,20 -45,20" fill="url(#glassCard)" stroke="#38bdf8" stroke-width="1.5" filter="url(#labGlow)"/>
+        <polygon points="-65,-22 45,-22 65,20 -45,20" fill="url(#glassCard)" stroke="#ffffff" stroke-width="0.8"/>
+        
+        <!-- Gold Chip on Card -->
+        <polygon points="-50,-14 -32,-14 -28,-4 -46,-4" fill="#F59E0B" stroke="#B45309" stroke-width="0.8"/>
+        
+        <text class="widget-text" x="-42" y="7" fill="#ffffff" letter-spacing="1">•••• 1601</text>
+        <text class="widget-text" x="15" y="-10" fill="#38BDF8">VISA</text>
+        <text class="widget-text" x="-42" y="16" fill="#94a3b8" font-size="6">NDLONG // DEV</text>
+      </g>
+
+      <!-- Widget 2: Live Activity Bar Chart (Floating to the right) -->
+      <g transform="translate(65, 15)">
+        <polygon points="-25,-15 35,-15 48,15 -12,15" fill="#0f172a" stroke="#818CF8" stroke-width="1.2"/>
+        <!-- Chart Bars (Isometric) -->
+        <polygon points="-15,8 -8,8 -4,-8 -11,-8" fill="#10B981">
+          <animate attributeName="points" values="-15,8 -8,8 -4,-8 -11,-8; -15,8 -8,8 -4,-18 -11,-18; -15,8 -8,8 -4,-8 -11,-8" dur="1.8s" repeatCount="indefinite"/>
+        </polygon>
+        <polygon points="-4,8 3,8 7,-16 0,-16" fill="#00E5FF">
+          <animate attributeName="points" values="-4,8 3,8 7,-16 0,-16; -4,8 3,8 7,-6 0,-6; -4,8 3,8 7,-16 0,-16" dur="1.5s" repeatCount="indefinite"/>
+        </polygon>
+        <polygon points="7,8 14,8 18,-12 11,-12" fill="#EC4899">
+          <animate attributeName="points" values="7,8 14,8 18,-12 11,-12; 7,8 14,8 18,-20 11,-20; 7,8 14,8 18,-12 11,-12" dur="2.1s" repeatCount="indefinite"/>
+        </polygon>
+      </g>
+
+      <!-- Widget 3: Floating Action Button (FAB) with pulse -->
+      <g transform="translate(-60, 30)">
+        <ellipse cx="0" cy="0" rx="14" ry="10" fill="#00E5FF" stroke="#38BDF8" stroke-width="1.5" filter="url(#labGlow)">
+          <animate attributeName="rx" values="14;16;14" dur="1.2s" repeatCount="indefinite"/>
+        </ellipse>
+        <text x="0" y="3" font-family="monospace" font-size="12" font-weight="900" fill="#080c16" text-anchor="middle">+</text>
+      </g>
+
+      <text x="80" y="45" font-family="monospace" font-size="7.5" font-weight="bold" fill="#EC4899">L3: 3D WIDGET TREE</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT PANEL: REACTIVE STATE PIPELINE ==================== -->
+  <g transform="translate(626, 46)">
+    <rect x="0" y="0" width="200" height="245" rx="8" fill="#090e1e" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="10" y="10" width="180" height="22" rx="4" fill="#180e2b" stroke="#EC4899" stroke-width="0.8" />
+    <text class="panel-header" x="18" y="25" fill="#EC4899">🔄 BLoC / RIVERPOD PIPELINE</text>
+
+    <!-- Pipeline Step 1 -->
+    <g transform="translate(14, 46)">
+      <rect x="0" y="0" width="172" height="34" rx="4" fill="#0f172a" stroke="#0284c7" stroke-width="0.8"/>
+      <text class="panel-val" x="10" y="16" fill="#38BDF8">1. USER DISPATCH EVENT</text>
+      <text class="panel-label" x="10" y="27">Tap Button ➔ Trigger Action</text>
+    </g>
+
+    <!-- Arrow 1 -->
+    <path d="M100,83 L100,91" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+    <!-- Pipeline Step 2 -->
+    <g transform="translate(14, 94)">
+      <rect x="0" y="0" width="172" height="34" rx="4" fill="#0f172a" stroke="#818CF8" stroke-width="0.8"/>
+      <text class="panel-val" x="10" y="16" fill="#818CF8">2. BLoC STATE HANDLER</text>
+      <text class="panel-label" x="10" y="27">Compute business logic</text>
+    </g>
+
+    <!-- Arrow 2 -->
+    <path d="M100,131 L100,139" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+    <!-- Pipeline Step 3 -->
+    <g transform="translate(14, 142)">
+      <rect x="0" y="0" width="172" height="34" rx="4" fill="#0f172a" stroke="#10B981" stroke-width="0.8"/>
+      <text class="panel-val" x="10" y="16" fill="#10B981">3. EMIT IMMUTABLE STATE</text>
+      <text class="panel-label" x="10" y="27">Notify widget rebuild tree</text>
+    </g>
+
+    <!-- Arrow 3 -->
+    <path d="M100,179 L100,187" stroke="#10b981" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+    <!-- Pipeline Step 4 -->
+    <g transform="translate(14, 190)">
+      <rect x="0" y="0" width="172" height="34" rx="4" fill="#0f172a" stroke="#EC4899" stroke-width="0.8"/>
+      <text class="panel-val" x="10" y="16" fill="#EC4899">4. 60FPS UI REPAINT</text>
+      <text class="panel-label" x="10" y="27">Zero frame drop • Impeller</text>
+    </g>
+  </g>
+</svg>
