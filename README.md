@@ -141,11 +141,11 @@
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
-### ⚔️ Player Status & Arcade Quest Log
+### 🌙 Midnight Lo-Fi Lounge & Coding Desk
 
 <div align="center">
-  <!-- RETRO ARCADE QUEST LOG & STATUS SCREEN -->
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/quest-log.svg" width="100%" alt="Arcade Quest Log & Status Screen" />
+  <!-- ANIMATED MIDNIGHT LO-FI RAIN & DESK SCENE -->
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/lofi-chill.svg" width="100%" alt="Midnight Lo-Fi Lounge" />
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->

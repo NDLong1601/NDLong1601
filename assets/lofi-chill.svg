@@ -1,0 +1,539 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 270" width="100%" height="270">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="lofiFrameBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="50%" stop-color="#0c1020"/>
+      <stop offset="100%" stop-color="#060912"/>
+    </linearGradient>
+
+    <!-- Top Neon Accent -->
+    <linearGradient id="lofiAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="35%" stop-color="#00E5FF"/>
+      <stop offset="70%" stop-color="#F472B6"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+
+    <!-- Night Sky Gradient outside window -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329"/>
+      <stop offset="60%" stop-color="#111c38"/>
+      <stop offset="100%" stop-color="#162347"/>
+    </linearGradient>
+
+    <!-- Desk Surface Gradient -->
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2035"/>
+      <stop offset="15%" stop-color="#131828"/>
+      <stop offset="100%" stop-color="#0a0d18"/>
+    </linearGradient>
+
+    <!-- Warm Lamp Ambient Glow -->
+    <radialGradient id="lampGlow" cx="20%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#070a14" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Monitor Screen Glow -->
+    <radialGradient id="screenGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#818CF8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Steam Path Shimmer -->
+    <linearGradient id="steamGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#e2e8f0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .frame-border { fill: url(#lofiFrameBg); stroke: #1e293b; stroke-width: 1.5; }
+    .header-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .sub-meta {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .code-line {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 7.5px;
+      font-weight: 700;
+    }
+  </style>
+
+  <!-- ==================== MAIN FRAME ==================== -->
+  <rect class="frame-border" x="2" y="2" width="846" height="266" rx="12" />
+
+  <!-- Top Glowing Accent Strip -->
+  <rect x="20" y="2" width="810" height="2" fill="url(#lofiAccent)" rx="1" filter="url(#softGlow)" />
+
+  <!-- ==================== HUD HEADER BAR ==================== -->
+  <g transform="translate(24, 20)">
+    <circle cx="0" cy="0" r="3.5" fill="#A855F7">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+      <animate attributeName="r" values="3.5;4.5;3.5" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text class="header-text" x="12" y="3" fill="#C084FC">MIDNIGHT LO-FI LOUNGE</text>
+    <text class="sub-meta" x="195" y="3" fill="#475569">|</text>
+    <text class="sub-meta" x="208" y="3" fill="#38BDF8">TIME: 02:45 AM</text>
+    <text class="sub-meta" x="315" y="3" fill="#475569">|</text>
+    <text class="sub-meta" x="328" y="3" fill="#FBBF24">MOOD: DEEP FOCUS &amp; CHILL VIBES</text>
+
+    <!-- Right Side Status -->
+    <text class="sub-meta" x="540" y="3" fill="#94a3b8">PLAYLIST: <tspan fill="#10B981">LOFI BEATS TO CODE TO</tspan></text>
+    <text class="sub-meta" x="740" y="3" fill="#475569">|</text>
+    <text class="sub-meta" x="752" y="3" fill="#38BDF8">🌧️ DRIZZLE</text>
+  </g>
+
+  <!-- ==================== THE RAINY WINDOW ==================== -->
+  <!-- Window Glass Frame -->
+  <g transform="translate(30, 34)">
+    <rect x="0" y="0" width="790" height="140" rx="8" fill="url(#skyGrad)" stroke="#1e293b" stroke-width="1.5" />
+    
+    <!-- Distant City Skyline Silhouette -->
+    <!-- Building 1 -->
+    <rect x="50" y="70" width="45" height="70" fill="#080d1e" />
+    <rect x="56" y="80" width="4" height="6" fill="#FBBF24" opacity="0.6"/>
+    <rect x="66" y="80" width="4" height="6" fill="#38BDF8" opacity="0.6"/>
+    <rect x="76" y="95" width="4" height="6" fill="#F472B6" opacity="0.5"/>
+    <rect x="56" y="110" width="4" height="6" fill="#FBBF24" opacity="0.4"/>
+    <circle cx="72" cy="70" r="1.5" fill="#EF4444">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Building 2 (Tower with Antenna) -->
+    <rect x="130" y="45" width="55" height="95" fill="#060916" />
+    <line x1="157" y1="30" x2="157" y2="45" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="157" cy="30" r="2" fill="#EF4444">
+      <animate attributeName="opacity" values="1;0.1;1" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="140" y="55" width="5" height="7" fill="#38BDF8" opacity="0.7"/>
+    <rect x="165" y="55" width="5" height="7" fill="#FBBF24" opacity="0.8"/>
+    <rect x="140" y="72" width="5" height="7" fill="#F472B6" opacity="0.5"/>
+    <rect x="152" y="88" width="5" height="7" fill="#34D399" opacity="0.6"/>
+
+    <!-- Building 3 (Wide) -->
+    <rect x="240" y="60" width="80" height="80" fill="#090e21" />
+    <rect x="252" y="70" width="5" height="6" fill="#FBBF24" opacity="0.6"/>
+    <rect x="265" y="70" width="5" height="6" fill="#FBBF24" opacity="0.7"/>
+    <rect x="290" y="70" width="5" height="6" fill="#38BDF8" opacity="0.6"/>
+    <rect x="252" y="88" width="5" height="6" fill="#38BDF8" opacity="0.5"/>
+    <rect x="278" y="105" width="5" height="6" fill="#F472B6" opacity="0.6"/>
+
+    <!-- Building 4 & 5 (Right Skyline) -->
+    <rect x="520" y="50" width="60" height="90" fill="#060a17" />
+    <circle cx="550" cy="50" r="2" fill="#EF4444">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="532" y="65" width="5" height="7" fill="#FBBF24" opacity="0.7"/>
+    <rect x="555" y="65" width="5" height="7" fill="#38BDF8" opacity="0.6"/>
+    <rect x="544" y="85" width="5" height="7" fill="#FBBF24" opacity="0.5"/>
+
+    <rect x="630" y="68" width="75" height="72" fill="#080e22" />
+    <rect x="645" y="80" width="5" height="6" fill="#38BDF8" opacity="0.6"/>
+    <rect x="665" y="80" width="5" height="6" fill="#F472B6" opacity="0.7"/>
+    <rect x="685" y="80" width="5" height="6" fill="#FBBF24" opacity="0.6"/>
+
+    <!-- Distant Crescent Moon -->
+    <g transform="translate(710, 20)">
+      <path d="M14 0 A14 14 0 1 0 14 28 A10 10 0 1 1 14 0 Z" fill="#FDE68A" opacity="0.85" filter="url(#softGlow)"/>
+    </g>
+
+    <!-- Falling Rain Streaks on Glass -->
+    <g class="rain">
+      <line x1="704" y1="42" x2="696" y2="57" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="42;152" dur="1.04s" begin="0.24s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="57;167" dur="1.04s" begin="0.24s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.04s" begin="0.24s" repeatCount="indefinite" />
+      </line>
+      <line x1="192" y1="82" x2="184" y2="98" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="82;192" dur="1.01s" begin="0.89s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="98;208" dur="1.01s" begin="0.89s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.01s" begin="0.89s" repeatCount="indefinite" />
+      </line>
+      <line x1="139" y1="72" x2="131" y2="93" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="72;182" dur="0.62s" begin="0.09s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="93;203" dur="0.62s" begin="0.09s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.62s" begin="0.09s" repeatCount="indefinite" />
+      </line>
+      <line x1="288" y1="67" x2="280" y2="91" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="67;177" dur="0.62s" begin="0.2s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="91;201" dur="0.62s" begin="0.2s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.62s" begin="0.2s" repeatCount="indefinite" />
+      </line>
+      <line x1="715" y1="79" x2="707" y2="102" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="79;189" dur="0.85s" begin="0.45s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="102;212" dur="0.85s" begin="0.45s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.85s" begin="0.45s" repeatCount="indefinite" />
+      </line>
+      <line x1="334" y1="86" x2="326" y2="114" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="86;196" dur="0.6s" begin="0.81s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="114;224" dur="0.6s" begin="0.81s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.6s" begin="0.81s" repeatCount="indefinite" />
+      </line>
+      <line x1="764" y1="62" x2="756" y2="82" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="62;172" dur="0.77s" begin="0.22s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="82;192" dur="0.77s" begin="0.22s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.77s" begin="0.22s" repeatCount="indefinite" />
+      </line>
+      <line x1="394" y1="41" x2="386" y2="57" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="41;151" dur="0.83s" begin="0.36s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="57;167" dur="0.83s" begin="0.36s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.83s" begin="0.36s" repeatCount="indefinite" />
+      </line>
+      <line x1="402" y1="73" x2="394" y2="92" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="73;183" dur="1.08s" begin="0.73s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="92;202" dur="1.08s" begin="0.73s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.08s" begin="0.73s" repeatCount="indefinite" />
+      </line>
+      <line x1="599" y1="42" x2="591" y2="63" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="42;152" dur="0.65s" begin="0.29s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="63;173" dur="0.65s" begin="0.29s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.65s" begin="0.29s" repeatCount="indefinite" />
+      </line>
+      <line x1="693" y1="74" x2="685" y2="102" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="74;184" dur="0.82s" begin="0.19s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="102;212" dur="0.82s" begin="0.19s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.82s" begin="0.19s" repeatCount="indefinite" />
+      </line>
+      <line x1="121" y1="37" x2="113" y2="62" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="37;147" dur="0.74s" begin="0.29s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="62;172" dur="0.74s" begin="0.29s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.74s" begin="0.29s" repeatCount="indefinite" />
+      </line>
+      <line x1="131" y1="89" x2="123" y2="107" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="89;199" dur="1.12s" begin="0.38s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="107;217" dur="1.12s" begin="0.38s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.12s" begin="0.38s" repeatCount="indefinite" />
+      </line>
+      <line x1="514" y1="75" x2="506" y2="103" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="75;185" dur="0.82s" begin="0.37s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="103;213" dur="0.82s" begin="0.37s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.82s" begin="0.37s" repeatCount="indefinite" />
+      </line>
+      <line x1="264" y1="77" x2="256" y2="96" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="77;187" dur="1.02s" begin="0.68s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="96;206" dur="1.02s" begin="0.68s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.02s" begin="0.68s" repeatCount="indefinite" />
+      </line>
+      <line x1="123" y1="73" x2="115" y2="98" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="73;183" dur="0.7s" begin="0.73s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="98;208" dur="0.7s" begin="0.73s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.7s" begin="0.73s" repeatCount="indefinite" />
+      </line>
+      <line x1="217" y1="64" x2="209" y2="85" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="64;174" dur="0.76s" begin="0.93s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="85;195" dur="0.76s" begin="0.93s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.76s" begin="0.93s" repeatCount="indefinite" />
+      </line>
+      <line x1="754" y1="70" x2="746" y2="88" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="70;180" dur="1.01s" begin="0.84s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="88;198" dur="1.01s" begin="0.84s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.01s" begin="0.84s" repeatCount="indefinite" />
+      </line>
+      <line x1="107" y1="49" x2="99" y2="77" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="49;159" dur="0.62s" begin="0.32s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="77;187" dur="0.62s" begin="0.32s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.62s" begin="0.32s" repeatCount="indefinite" />
+      </line>
+      <line x1="324" y1="39" x2="316" y2="57" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="39;149" dur="1.15s" begin="0.57s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="57;167" dur="1.15s" begin="0.57s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.15s" begin="0.57s" repeatCount="indefinite" />
+      </line>
+      <line x1="785" y1="55" x2="777" y2="73" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="55;165" dur="0.99s" begin="0.4s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="73;183" dur="0.99s" begin="0.4s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.99s" begin="0.4s" repeatCount="indefinite" />
+      </line>
+      <line x1="708" y1="64" x2="700" y2="81" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="64;174" dur="0.76s" begin="0.25s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="81;191" dur="0.76s" begin="0.25s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.76s" begin="0.25s" repeatCount="indefinite" />
+      </line>
+      <line x1="624" y1="69" x2="616" y2="88" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="69;179" dur="1.05s" begin="0.43s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="88;198" dur="1.05s" begin="0.43s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.05s" begin="0.43s" repeatCount="indefinite" />
+      </line>
+      <line x1="647" y1="60" x2="639" y2="80" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="60;170" dur="0.73s" begin="1.0s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="80;190" dur="0.73s" begin="1.0s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.73s" begin="1.0s" repeatCount="indefinite" />
+      </line>
+      <line x1="571" y1="66" x2="563" y2="82" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="66;176" dur="1.05s" begin="0.86s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="82;192" dur="1.05s" begin="0.86s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.05s" begin="0.86s" repeatCount="indefinite" />
+      </line>
+      <line x1="206" y1="75" x2="198" y2="92" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="75;185" dur="1.08s" begin="0.42s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="92;202" dur="1.08s" begin="0.42s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.08s" begin="0.42s" repeatCount="indefinite" />
+      </line>
+      <line x1="115" y1="59" x2="107" y2="80" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="59;169" dur="0.96s" begin="0.47s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="80;190" dur="0.96s" begin="0.47s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="0.96s" begin="0.47s" repeatCount="indefinite" />
+      </line>
+      <line x1="307" y1="70" x2="299" y2="98" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4">
+        <animate attributeName="y1" values="70;180" dur="1.17s" begin="0.68s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="98;208" dur="1.17s" begin="0.68s" repeatCount="indefinite" />
+        <animate attributeName="stroke-opacity" values="0.1;0.6;0" dur="1.17s" begin="0.68s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <!-- Window Grid Panes -->
+    <line x1="263.3333333333333" y1="0" x2="263.3333333333333" y2="140" stroke="#0f172a" stroke-width="2.5" />
+    <line x1="526.6666666666666" y1="0" x2="526.6666666666666" y2="140" stroke="#0f172a" stroke-width="2.5" />
+    <line x1="0" y1="70" x2="790" y2="70" stroke="#0f172a" stroke-width="2" />
+  </g>
+
+  <!-- ==================== DESK & INTERIOR SETUP ==================== -->
+  <!-- Wooden Desk Surface -->
+  <rect x="20" y="165" width="810" height="95" rx="6" fill="url(#deskGrad)" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Desk Edge Highlight -->
+  <line x1="22" y1="166" x2="828" y2="166" stroke="#334155" stroke-width="1" />
+
+  <!-- Ambient Lamp Glow on Left Side of Desk -->
+  <ellipse cx="140" cy="180" rx="140" ry="70" fill="url(#lampGlow)" />
+
+  <!-- Ambient Screen Glow in Center -->
+  <ellipse cx="430" cy="175" rx="200" ry="60" fill="url(#screenGlow)" />
+
+  <!-- ==================== WORKSPACE GEAR ==================== -->
+
+  <!-- 1. VINTAGE DESK LAMP (Left) -->
+  <g transform="translate(75, 115)">
+    <!-- Base -->
+    <ellipse cx="25" cy="85" rx="14" ry="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <!-- Stem -->
+    <path d="M25 85 Q20 50 35 25" fill="none" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+    <!-- Lamp Head Angle -->
+    <path d="M35 25 L50 20 L56 34 L38 38 Z" fill="#F59E0B" stroke="#D97706" stroke-width="1.5"/>
+    <!-- Light Cone -->
+    <polygon points="46,30 18,90 85,90 54,34" fill="#FDE68A" opacity="0.18"/>
+  </g>
+
+  <!-- 2. POTTED SUCCULENT PLANT (Far Left Desk) -->
+  <g transform="translate(42, 168)">
+    <!-- Pot -->
+    <polygon points="8,35 24,35 28,18 4,18" fill="#78350f" stroke="#92400e" stroke-width="1"/>
+    <ellipse cx="16" cy="18" rx="12" ry="3" fill="#451a03" />
+    <!-- Leaves -->
+    <path d="M16 17 Q10 8 6 12 Q12 16 16 17 Z" fill="#10B981" />
+    <path d="M16 17 Q22 8 26 12 Q20 16 16 17 Z" fill="#059669" />
+    <path d="M16 17 Q16 4 19 6 Q18 14 16 17 Z" fill="#34D399" />
+  </g>
+
+  <!-- 3. DUAL MONITOR SETUP (Center) -->
+  <!-- Left Screen: Code Editor (Flutter / Dart) -->
+  <g transform="translate(265, 120)">
+    <!-- Stand -->
+    <rect x="70" y="70" width="12" height="15" fill="#1e293b" />
+    <ellipse cx="76" cy="85" rx="18" ry="3" fill="#0f172a" />
+    
+    <!-- Monitor Body -->
+    <rect x="0" y="0" width="155" height="74" rx="4" fill="#0a0f1d" stroke="#334155" stroke-width="1.5" />
+    <!-- Screen Inner Display -->
+    <rect x="3" y="3" width="149" height="68" rx="2" fill="#070c18" />
+    
+    <!-- Code Editor Tabs -->
+    <rect x="5" y="5" width="42" height="7" rx="2" fill="#1e293b" />
+    <text x="8" y="10.5" font-family="monospace" font-size="5" fill="#00E5FF">main.dart</text>
+    <line x1="5" y1="13" x2="147" y2="13" stroke="#1e293b" stroke-width="0.8" />
+    
+    <!-- Code Lines -->
+    <text class="code-line" x="8" y="22" fill="#EC4899">import <tspan fill="#38BDF8">'flutter/material.dart'</tspan>;</text>
+    <text class="code-line" x="8" y="31" fill="#818CF8">class <tspan fill="#FBBF24">NDLongApp</tspan> <tspan fill="#EC4899">extends</tspan> <tspan fill="#34D399">Stateless</tspan> &#123;</text>
+    <text class="code-line" x="14" y="40" fill="#818CF8">Widget <tspan fill="#38BDF8">build</tspan>(context) &#123;</text>
+    <text class="code-line" x="20" y="49" fill="#EC4899">return <tspan fill="#FBBF24">PixelPerfect</tspan>(</text>
+    <text class="code-line" x="26" y="58" fill="#34D399">code: <tspan fill="#38BDF8">Flutter</tspan>, vibes: <tspan fill="#F59E0B">Lofi</tspan>);</text>
+    <text class="code-line" x="8" y="66" fill="#818CF8">&#125;&#125;</text>
+    
+    <!-- Blinking Cursor -->
+    <rect x="110" y="53" width="4" height="6" fill="#00E5FF">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Right Screen: Spotify Player / UI Design -->
+  <g transform="translate(435, 120)">
+    <!-- Stand -->
+    <rect x="70" y="70" width="12" height="15" fill="#1e293b" />
+    <ellipse cx="76" cy="85" rx="18" ry="3" fill="#0f172a" />
+    
+    <!-- Monitor Body -->
+    <rect x="0" y="0" width="155" height="74" rx="4" fill="#0a0f1d" stroke="#334155" stroke-width="1.5" />
+    <rect x="3" y="3" width="149" height="68" rx="2" fill="#090e1c" />
+    
+    <!-- Header -->
+    <rect x="5" y="5" width="46" height="7" rx="2" fill="#1e293b" />
+    <text x="8" y="10.5" font-family="monospace" font-size="5" fill="#1DB954">Spotify Vibes</text>
+    <circle cx="142" cy="8" r="2" fill="#1DB954" />
+    
+    <!-- Mini Album Art & Visualizer on Screen -->
+    <rect x="10" y="18" width="30" height="30" rx="3" fill="#18223d" stroke="#334155" stroke-width="1"/>
+    <text x="25" y="36" font-size="12" text-anchor="middle">🎧</text>
+    
+    <text x="46" y="26" font-family="sans-serif" font-size="7" font-weight="700" fill="#f8fafc">ChilledCow / Lofi</text>
+    <text x="46" y="34" font-family="sans-serif" font-size="6" fill="#94a3b8">Midnight Code Session</text>
+    
+    <!-- Mini Equalizer bars on screen -->
+    <g transform="translate(46, 40)">
+      <rect x="0" y="0" width="3" height="8" rx="1" fill="#1DB954">
+        <animate attributeName="height" values="8;16;4;14;8" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="5" y="0" width="3" height="12" rx="1" fill="#00E5FF">
+        <animate attributeName="height" values="12;6;16;8;12" dur="0.7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="10" y="0" width="3" height="6" rx="1" fill="#818CF8">
+        <animate attributeName="height" values="6;14;8;16;6" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="15" y="0" width="3" height="14" rx="1" fill="#EC4899">
+        <animate attributeName="height" values="14;8;16;6;14" dur="0.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="20" y="0" width="3" height="9" rx="1" fill="#F59E0B">
+        <animate attributeName="height" values="9;15;5;12;9" dur="0.75s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Progress Bar on screen -->
+    <rect x="10" y="55" width="135" height="3" rx="1.5" fill="#1e293b" />
+    <rect x="10" y="55" width="85" height="3" rx="1.5" fill="#1DB954" />
+  </g>
+
+  <!-- 4. MECHANICAL KEYBOARD & MOUSE (Desk Center) -->
+  <g transform="translate(350, 205)">
+    <!-- Keyboard Base -->
+    <rect x="0" y="0" width="125" height="34" rx="3" fill="#111827" stroke="#334155" stroke-width="1.2" />
+    
+    <!-- Keycap Matrix (60% Layout with RGB backlight) -->
+    <g fill="#1f2937">
+      <!-- Row 1 -->
+      <rect x="4" y="4" width="7" height="4" rx="1"/>
+      <rect x="13" y="4" width="7" height="4" rx="1"/>
+      <rect x="22" y="4" width="7" height="4" rx="1"/>
+      <rect x="31" y="4" width="7" height="4" rx="1"/>
+      <rect x="40" y="4" width="7" height="4" rx="1"/>
+      <rect x="49" y="4" width="7" height="4" rx="1"/>
+      <rect x="58" y="4" width="7" height="4" rx="1"/>
+      <rect x="67" y="4" width="7" height="4" rx="1"/>
+      <rect x="76" y="4" width="7" height="4" rx="1"/>
+      <rect x="85" y="4" width="7" height="4" rx="1"/>
+      <rect x="94" y="4" width="7" height="4" rx="1"/>
+      <rect x="103" y="4" width="18" height="4" rx="1" fill="#374151"/>
+      
+      <!-- Row 2 -->
+      <rect x="4" y="10" width="10" height="4" rx="1" fill="#374151"/>
+      <rect x="16" y="10" width="7" height="4" rx="1"/>
+      <rect x="25" y="10" width="7" height="4" rx="1"/>
+      <rect x="34" y="10" width="7" height="4" rx="1"/>
+      <rect x="43" y="10" width="7" height="4" rx="1"/>
+      <rect x="52" y="10" width="7" height="4" rx="1"/>
+      <rect x="61" y="10" width="7" height="4" rx="1"/>
+      <rect x="70" y="10" width="7" height="4" rx="1"/>
+      <rect x="79" y="10" width="7" height="4" rx="1"/>
+      <rect x="88" y="10" width="7" height="4" rx="1"/>
+      <rect x="97" y="10" width="7" height="4" rx="1"/>
+      <rect x="106" y="10" width="15" height="4" rx="1" fill="#374151"/>
+
+      <!-- Spacebar Row -->
+      <rect x="4" y="24" width="14" height="5" rx="1" fill="#374151"/>
+      <rect x="22" y="24" width="10" height="5" rx="1" fill="#374151"/>
+      <rect x="36" y="24" width="52" height="5" rx="1" fill="#4b5563"/>
+      <rect x="92" y="24" width="12" height="5" rx="1" fill="#374151"/>
+      <rect x="108" y="24" width="13" height="5" rx="1" fill="#374151"/>
+    </g>
+
+    <!-- RGB Underglow Line -->
+    <line x1="4" y1="32" x2="121" y2="32" stroke="#00E5FF" stroke-width="1.2" opacity="0.8">
+      <animate attributeName="stroke" values="#00E5FF;#818CF8;#EC4899;#10B981;#00E5FF" dur="4s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Ergonomic Mouse on Mousepad -->
+    <rect x="138" y="-4" width="40" height="42" rx="3" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <!-- Mouse -->
+    <path d="M152 10 Q160 5 168 10 L168 22 Q160 26 152 22 Z" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <line x1="160" y1="7" x2="160" y2="14" stroke="#00E5FF" stroke-width="1"/>
+  </g>
+
+  <!-- 5. STEAMING COFFEE MUG (Right Desk) -->
+  <g transform="translate(615, 192)">
+    <!-- Mug Body -->
+    <rect x="0" y="12" width="22" height="26" rx="4" fill="#0284c7" stroke="#0369a1" stroke-width="1.2"/>
+    <!-- Handle -->
+    <path d="M22 18 C28 18, 28 32, 22 32" fill="none" stroke="#0369a1" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Heart / Flutter logo on mug -->
+    <text x="11" y="28" font-size="10" text-anchor="middle">💙</text>
+
+    <!-- Animated Coffee Steam Trails -->
+    <!-- Steam Trail 1 -->
+    <path d="M7 10 Q3 3 7 -4 Q11 -11 7 -18" fill="none" stroke="url(#steamGrad)" stroke-width="1.8" stroke-linecap="round">
+      <animate attributeName="d" values="M7 10 Q3 3 7 -4 Q11 -11 7 -18; M7 10 Q11 3 7 -4 Q3 -11 7 -18; M7 10 Q3 3 7 -4 Q11 -11 7 -18" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <!-- Steam Trail 2 -->
+    <path d="M15 10 Q19 3 15 -4 Q11 -11 15 -18" fill="none" stroke="url(#steamGrad)" stroke-width="1.8" stroke-linecap="round">
+      <animate attributeName="d" values="M15 10 Q19 3 15 -4 Q11 -11 15 -18; M15 10 Q11 3 15 -4 Q19 -11 15 -18; M15 10 Q19 3 15 -4 Q11 -11 15 -18" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- 6. SLEEPING CAT (Cozy Companion on Far Right Desk) -->
+  <g transform="translate(680, 205)">
+    <!-- Cat Mat / Cushion -->
+    <ellipse cx="35" cy="22" rx="38" ry="12" fill="#1e1b4b" stroke="#312e81" stroke-width="1.2"/>
+    
+    <!-- Sleeping Cat Body (Curled up) -->
+    <!-- Breathing animation scales the body slightly -->
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1 1; 1 1.04; 1 1" dur="2.8s" repeatCount="indefinite" additive="sum"/>
+      
+      <!-- Body -->
+      <ellipse cx="34" cy="18" rx="24" ry="14" fill="#fb923c" stroke="#ea580c" stroke-width="1"/>
+      <!-- Tail curled around -->
+      <path d="M12 20 Q8 10 16 12 Q14 20 22 22" fill="#ea580c"/>
+      <!-- Head -->
+      <circle cx="50" cy="15" r="11" fill="#fb923c" stroke="#ea580c" stroke-width="1"/>
+      <!-- Ears -->
+      <polygon points="46,6 52,2 51,9" fill="#f97316"/>
+      <polygon points="54,8 60,4 58,11" fill="#f97316"/>
+      <!-- Closed sleeping eyes (^_^) -->
+      <path d="M46 16 Q48 18 50 16" fill="none" stroke="#431407" stroke-width="1" stroke-linecap="round"/>
+      <path d="M52 16 Q54 18 56 16" fill="none" stroke="#431407" stroke-width="1" stroke-linecap="round"/>
+      <!-- Zzz floating up -->
+      <text x="65" y="6" font-family="monospace" font-size="8" font-weight="900" fill="#c084fc">
+        <animate attributeName="y" values="6;-6" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
+        z
+      </text>
+      <text x="73" y="-2" font-family="monospace" font-size="10" font-weight="900" fill="#a855f7">
+        <animate attributeName="y" values="-2;-16" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+        Z
+      </text>
+    </g>
+  </g>
+
+  <!-- Ambient Floor / Base Shadow -->
+  <line x1="20" y1="262" x2="830" y2="262" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,6" opacity="0.4"/>
+</svg>
