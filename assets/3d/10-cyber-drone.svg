@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="drBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="100%" stop-color="#04060d"/>
+    </linearGradient>
+    <filter id="drGlow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="400" height="240" rx="8" fill="url(#drBg)" stroke="#1e293b"/>
+  <text x="14" y="22" font-family="monospace" font-size="9" font-weight="bold" fill="#00E5FF">[DEMO 10] 3D CYBER DELIVERY DRONE</text>
+  <text x="315" y="22" font-family="monospace" font-size="8" fill="#00E5FF">● HOVERING</text>
+  <line x1="14" y1="30" x2="386" y2="30" stroke="#1e293b"/>
+
+  <!-- Scanning Hologram Cone Downward -->
+  <polygon points="200,130 120,215 280,215" fill="#00E5FF" opacity="0.08"/>
+  <line x1="120" y1="215" x2="280" y2="215" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="4,4" filter="url(#drGlow)">
+    <animate attributeName="stroke" values="#00E5FF;#10B981;#00E5FF" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <text x="200" y="227" font-family="monospace" font-size="7.5" fill="#00E5FF" text-anchor="middle">DEPLOYING: FLUTTER APK / APP BUNDLE</text>
+
+  <!-- 3D Drone Body with Hovering Animation -->
+  <g transform="translate(0, 0)">
+    <animateTransform attributeName="transform" type="translate" values="0 -6; 0 6; 0 -6" dur="2.4s" repeatCount="indefinite"/>
+
+    <!-- 4 Propeller Discs (Spinning fast) -->
+    <!-- Left Front -->
+    <ellipse cx="135" cy="100" rx="28" ry="6" fill="#38BDF8" opacity="0.4">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="0.1s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Right Front -->
+    <ellipse cx="265" cy="100" rx="28" ry="6" fill="#38BDF8" opacity="0.4">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="0.1s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Left Back -->
+    <ellipse cx="155" cy="85" rx="22" ry="5" fill="#818CF8" opacity="0.3">
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="0.1s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Right Back -->
+    <ellipse cx="245" cy="85" rx="22" ry="5" fill="#818CF8" opacity="0.3">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="0.1s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Drone Arms -->
+    <line x1="135" y1="100" x2="200" y2="115" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+    <line x1="265" y1="100" x2="200" y2="115" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+    <line x1="155" y1="85" x2="200" y2="115" stroke="#334155" stroke-width="2.5"/>
+    <line x1="245" y1="85" x2="200" y2="115" stroke="#334155" stroke-width="2.5"/>
+
+    <!-- Main Drone Cockpit Body -->
+    <polygon points="176,107 224,107 216,133 184,133" fill="#0f172a" stroke="#00E5FF" stroke-width="1.5"/>
+    
+    <!-- LED Eye / Camera Sensor -->
+    <circle cx="200" cy="119" r="5" fill="#00E5FF" filter="url(#drGlow)">
+      <animate attributeName="fill" values="#00E5FF;#10B981;#00E5FF" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="119" r="2" fill="#ffffff"/>
+  </g>
+</svg>

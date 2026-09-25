@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="100%" stop-color="#04060d"/>
+    </linearGradient>
+    <filter id="cubeGlow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="400" height="240" rx="8" fill="url(#cBg)" stroke="#1e293b"/>
+  <text x="14" y="22" font-family="monospace" font-size="9" font-weight="bold" fill="#00E5FF">[DEMO 01] 3D ROTATING TECH CUBE</text>
+  <text x="315" y="22" font-family="monospace" font-size="8" fill="#10B981">● 3D AXIS</text>
+  <line x1="14" y1="30" x2="386" y2="30" stroke="#1e293b"/>
+
+  <!-- Shadow on floor -->
+  <ellipse cx="200" cy="205" rx="55" ry="14" fill="#000000" opacity="0.6">
+    <animate attributeName="rx" values="55;65;55" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.4;0.6" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- 3D Cube Container floating -->
+  <g transform="translate(0, 0)">
+    <animateTransform attributeName="transform" type="translate" values="0 -6; 0 6; 0 -6" dur="3s" repeatCount="indefinite"/>
+
+    <!-- Faces with isometric shading and rotation morphing -->
+    <!-- Top Face -->
+    <polygon points="200,60 255,88 200,116 145,88" fill="#131e36" stroke="#00E5FF" stroke-width="1.5">
+      <animate attributeName="fill" values="#131e36;#1e2d52;#131e36" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Top Logo: Flutter Diamond -->
+    <polygon points="200,75 220,88 200,101 180,88" fill="#00E5FF" opacity="0.9"/>
+    <text x="200" y="92" font-family="sans-serif" font-size="7" font-weight="900" fill="#0b1120" text-anchor="middle">FLUTTER</text>
+
+    <!-- Left Face -->
+    <polygon points="145,88 200,116 200,185 145,157" fill="#0a1224" stroke="#0284c7" stroke-width="1.5">
+      <animate attributeName="fill" values="#0a1224;#112040;#0a1224" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Left Face Content -->
+    <text x="172" y="142" font-family="sans-serif" font-size="11" font-weight="900" fill="#38BDF8" text-anchor="middle" transform="rotate(30 172 142)">DART</text>
+    <text x="172" y="153" font-family="monospace" font-size="7" fill="#64748b" text-anchor="middle" transform="rotate(30 172 142)">v3.x</text>
+
+    <!-- Right Face -->
+    <polygon points="200,116 255,88 255,157 200,185" fill="#060c18" stroke="#3b82f6" stroke-width="1.5">
+      <animate attributeName="fill" values="#060c18;#0f1b33;#060c18" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Right Face Content -->
+    <text x="228" y="142" font-family="sans-serif" font-size="11" font-weight="900" fill="#818CF8" text-anchor="middle" transform="rotate(-30 228 142)">KOTLIN</text>
+    <text x="228" y="153" font-family="monospace" font-size="7" fill="#64748b" text-anchor="middle" transform="rotate(-30 228 142)">NATIVE</text>
+  </g>
+
+  <!-- Orbiting 3D Particle Rings -->
+  <ellipse cx="200" cy="135" rx="90" ry="32" fill="none" stroke="#00E5FF" stroke-width="1" stroke-dasharray="4,6" opacity="0.5" transform="rotate(-20 200 135)"/>
+  <circle cx="115" cy="115" r="3" fill="#00E5FF" filter="url(#cubeGlow)">
+    <animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="285" cy="155" r="3" fill="#EC4899" filter="url(#cubeGlow)">
+    <animate attributeName="r" values="3;1.5;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

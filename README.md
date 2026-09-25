@@ -158,6 +158,58 @@
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
+### 🧪 3D Animation Lab & Showcase (10 Experimental Demos)
+
+> [!TIP]
+> **Phòng Thí Nghiệm 3D Animation (10 Demos Hoạt Ảnh Sống Động):**
+> Bạn hãy quan sát trực tiếp các hiệu ứng chuyển động 3D bên dưới. Sau khi xem, bạn chỉ cần chọn số thứ tự mà bạn ưng ý nhất (ví dụ: *chọn số 1, 2, 5...*), tôi sẽ giữ lại các mẫu được chọn và tối ưu vị trí hiển thị chuẩn nhất cho bạn!
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/01-tech-cube.svg" width="100%" alt="3D Tech Cube" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/02-mobile-layers.svg" width="100%" alt="3D Floating Mobile Layers" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/03-gyroscope.svg" width="100%" alt="3D Multi-Axis Gyroscope" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/04-cyber-coin.svg" width="100%" alt="3D Flipping Cyber Coin" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/05-holo-card.svg" width="100%" alt="3D Parallax Holo Card" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/06-warp-tunnel.svg" width="100%" alt="3D Infinite Warp Tunnel" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/07-neural-net.svg" width="100%" alt="3D Neural Synapse Network" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/08-mobius-strip.svg" width="100%" alt="3D Infinite Mobius Strip" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/09-isometric-keys.svg" width="100%" alt="3D Isometric Keycaps Wave" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/10-cyber-drone.svg" width="100%" alt="3D Hovering Cyber Drone" />
+    </td>
+  </tr>
+</table>
+
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
+
 ### 💬 Daily Dev Quote
 
 <div align="center">
