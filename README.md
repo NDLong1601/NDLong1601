@@ -1,8 +1,9 @@
+<!-- HEADER WAVE -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0175C2,100:02569B&height=200&section=header&text=Nguyễn%20Đức%20Long&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Flutter%20Developer%20%7C%20Mobile%20UI%2FUX&descAlignY=58&descSize=20&animation=fadeIn" />
+
 <div align="center">
 
-# 👋 Xin chào, tôi là Nguyễn Đức Long!
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=0175C2&center=true&vCenter=true&width=550&lines=Flutter+Developer+%F0%9F%93%B1;Mobile+UI%2FUX+Enthusiast+%F0%9F%8E%A8;Always+Learning+New+Tech+%F0%9F%8C%B1;Open+to+Collaboration+%F0%9F%A4%9D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=0175C2&center=true&vCenter=true&width=550&lines=Flutter+Developer+%F0%9F%93%B1;Mobile+UI%2FUX+Enthusiast+%F0%9F%8E%A8;Always+Learning+New+Tech+%F0%9F%8C%B1;Open+to+Collaboration+%F0%9F%A4%9D" alt="Typing SVG" />
 
 <br/>
 
@@ -39,14 +40,7 @@ status  : Open to Collaboration 🤝
 
 <div align="center">
 
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+<img src="https://skillicons.dev/icons?i=dart,flutter,java,firebase,figma,python,sqlite,opencv&theme=dark&perline=8" alt="Tech Stack Icons" />
 
 </div>
 
@@ -57,6 +51,20 @@ status  : Open to Collaboration 🤝
 <div align="center">
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NDLong1601&theme=tokyonight&hide_border=true&stroke=0175C2&ring=0175C2&fire=FF6B6B&currStreakLabel=0175C2)](https://github.com/NDLong1601)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/NDLong1601/NDLong1601/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NDLong1601/NDLong1601/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
@@ -84,8 +92,5 @@ status  : Open to Collaboration 🤝
 
 ---
 
-<div align="center">
-
-*⭐ "Code is like humor. When you have to explain it, it's bad." – Cory House*
-
-</div>
+<!-- FOOTER WAVE -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:02569B,100:0175C2&height=120&section=footer&animation=fadeIn" />
