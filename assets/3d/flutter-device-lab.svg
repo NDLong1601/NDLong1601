@@ -57,9 +57,9 @@
     <circle cx="0" cy="0" r="3.5" fill="#00E5FF">
       <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite" />
     </circle>
-    <text class="hud-title" x="12" y="3" fill="#00E5FF">[3D MODEL A] THE ULTIMATE FLUTTER 3D ISOMETRIC DEVICE LAB</text>
-    <text class="hud-sub" x="475" y="3">|</text>
-    <text class="hud-sub" x="488" y="3" fill="#10B981">IMPELLER 3D PIPELINE: ACTIVE</text>
+    <text class="hud-title" x="12" y="3" fill="#00E5FF">FLUTTER 3D ISOMETRIC DEVICE LAB // MOBILE ARCHITECTURE &amp; IMPELLER</text>
+    <text class="hud-sub" x="480" y="3">|</text>
+    <text class="hud-sub" x="493" y="3" fill="#10B981">IMPELLER 3D PIPELINE: ACTIVE</text>
 
     <!-- Right Header -->
     <text class="hud-sub" x="630" y="3">TARGET: <tspan fill="#38BDF8">iOS • ANDROID</tspan></text>

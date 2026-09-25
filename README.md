@@ -88,6 +88,16 @@
 <!-- GLOWING NEON SEPARATOR -->
 <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
 
+### 📱 Mobile Architecture & Flutter 3D Device Lab
+
+<div align="center">
+  <!-- 3D FLUTTER ISOMETRIC DEVICE LAB -->
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/flutter-device-lab.svg" width="100%" alt="Flutter 3D Device Lab" />
+</div>
+
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
+
 ### 📊 GitHub Activity
 
 <div align="center">
@@ -97,7 +107,7 @@
 
 ---
 
-### 🐍 Contribution Journey & Arcade
+### 🕹️ Retro Arcade Arena & Contribution Journey
 
 <div align="center">
   <picture>
@@ -112,6 +122,23 @@
 <div align="center">
   <!-- ANIMATED PAC-MAN CONTRIBUTION EATER -->
   <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/pacman.svg" width="90%" alt="Pacman Contribution Eater" />
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- RETRO 3D ARCADE CABINET SIMULATOR -->
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/arcade-cabinet-3d.svg" width="100%" alt="Retro Arcade 3D Cabinet" />
+</div>
+
+<!-- GLOWING NEON SEPARATOR -->
+<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
+
+### 🧠 AI Neural Core & Quantum Matrix Lab
+
+<div align="center">
+  <!-- QUANTUM MATRIX AI FUSION REACTOR -->
+  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/quantum-reactor-3d.svg" width="100%" alt="Quantum Matrix 3D Reactor" />
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->
@@ -153,65 +180,6 @@
 <div align="center">
   <!-- ANIMATED MIDNIGHT LO-FI RAIN & DESK SCENE -->
   <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/lofi-chill.svg" width="100%" alt="Midnight Lo-Fi Lounge" />
-</div>
-
-<!-- GLOWING NEON SEPARATOR -->
-<img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/neon-separator.svg" width="100%" height="6" alt="Divider" />
-
-### 🧪 3D Masterpiece Comparison Gallery (Hướng 1 vs. Hướng 2)
-
-> [!TIP]
-> **Khu Vực Trưng Bày & So Sánh Toàn Bộ 6 Mẫu 3D Animation:**
-> - **Hướng 1 (Mẫu A, B, C):** Mô hình phối cảnh Isometric toàn cảnh chi tiết cao, hiển thị trọn bộ dashboard, thông số vi mạch và màn hình động.
-> - **Hướng 2 (Mẫu D, E, F):** Mô hình 3D Studio Cinematic & Pha lê lăng kính đa diện (PBR Refraction & Hypercube 4D).
-> Hãy xem trực tiếp trên GitHub và phản hồi các mẫu bạn muốn giữ lại chính thức nhé!
-
----
-
-#### 🌟 HƯỚNG 1: ISOMETRIC HI-FI CENTERPIECE (TOÀN CẢNH CÔNG NGHỆ CHI TIẾT CAO)
-
-##### 📱 [Mẫu A] The Ultimate Flutter 3D Isometric Device Lab
-<div align="center">
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/flutter-device-lab.svg" width="100%" alt="Flutter 3D Device Lab" />
-</div>
-
-<br/>
-
-##### 🕹️ [Mẫu B] Retro 3D Arcade Cabinet Simulator
-<div align="center">
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/arcade-cabinet-3d.svg" width="100%" alt="Retro Arcade 3D Cabinet" />
-</div>
-
-<br/>
-
-##### ⚛️ [Mẫu C] Quantum Matrix AI Fusion Reactor
-<div align="center">
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/quantum-reactor-3d.svg" width="100%" alt="Quantum Matrix 3D Reactor" />
-</div>
-
-<br/>
-
----
-
-#### 💎 HƯỚNG 2: 3D STUDIO CINEMATIC & CRYSTAL PRISMATIC (ĐỒ HỌA STUDIO & PHA LÊ ĐA DIỆN)
-
-##### 👨‍🚀 [Mẫu D] 3D Floating Astronaut Developer (Cinema 3D Pre-rendered)
-<div align="center">
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/spaceman-3d.gif" width="600" alt="3D Floating Astronaut Developer" />
-</div>
-
-<br/>
-
-##### 💎 [Mẫu E] 3D Chrome Crystal Flutter Emblem (Raytraced PBR Prismatic)
-<div align="center">
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/flutter-crystal-3d.svg" width="100%" alt="3D Chrome Crystal Flutter" />
-</div>
-
-<br/>
-
-##### 💠 [Mẫu F] 4D Quantum Tesseract Hypercube (Stereographic Code Vault)
-<div align="center">
-  <img src="https://raw.githubusercontent.com/NDLong1601/NDLong1601/main/assets/3d/tesseract-3d.svg" width="100%" alt="4D Quantum Tesseract Vault" />
 </div>
 
 <!-- GLOWING NEON SEPARATOR -->

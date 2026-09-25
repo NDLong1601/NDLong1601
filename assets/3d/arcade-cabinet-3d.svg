@@ -47,9 +47,9 @@
     <circle cx="0" cy="0" r="3.5" fill="#FFB800">
       <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite" />
     </circle>
-    <text class="hud-title" x="12" y="3" fill="#FFB800">[3D MODEL B] RETRO ARCADE 3D CABINET // CABINET ID: FLUTTER-8BIT</text>
-    <text class="hud-sub" x="525" y="3">|</text>
-    <text class="hud-sub" x="538" y="3" fill="#00E5FF">INSERT COIN 25¢</text>
+    <text class="hud-title" x="12" y="3" fill="#FFB800">RETRO ARCADE 3D SIMULATOR // CABINET ID: FLUTTER-8BIT-CHAMBER</text>
+    <text class="hud-sub" x="515" y="3">|</text>
+    <text class="hud-sub" x="528" y="3" fill="#00E5FF">INSERT COIN 25¢</text>
 
     <!-- Right Header -->
     <text class="hud-sub" x="670" y="3">CREDITS: <tspan fill="#10B981">99</tspan></text>

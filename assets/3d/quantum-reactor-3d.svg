@@ -49,7 +49,7 @@
     <circle cx="0" cy="0" r="3.5" fill="#38BDF8">
       <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite" />
     </circle>
-    <text class="hud-title" x="12" y="3" fill="#38BDF8">[3D MODEL C] QUANTUM MATRIX AI REACTOR // MOBILE NEURAL CORE</text>
+    <text class="hud-title" x="12" y="3" fill="#38BDF8">QUANTUM MATRIX AI REACTOR // MOBILE NEURAL ACCELERATOR CORE</text>
     <text class="hud-sub" x="495" y="3">|</text>
     <text class="hud-sub" x="508" y="3" fill="#10B981">CORE CONTAINMENT: 100% STABLE</text>
 
